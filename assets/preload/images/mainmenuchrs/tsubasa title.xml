@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tsubasa title.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tsubasa_title0000" x="942" y="0" width="432" height="726" frameX="-2" frameY="-11" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0001" x="942" y="0" width="432" height="726" frameX="-2" frameY="-11" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0002" x="939" y="816" width="427" height="754" frameX="0" frameY="-7" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0003" x="939" y="816" width="427" height="754" frameX="0" frameY="-7" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0004" x="469" y="0" width="423" height="766" frameX="0" frameY="-2" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0005" x="469" y="0" width="423" height="766" frameX="0" frameY="-2" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0006" x="469" y="816" width="420" height="771" frameX="-1" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0007" x="469" y="816" width="420" height="771" frameX="-1" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0008" x="0" y="0" width="419" height="774" frameX="-2" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0009" x="0" y="0" width="419" height="774" frameX="-2" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0010" x="0" y="824" width="419" height="774" frameX="-2" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0011" x="0" y="824" width="419" height="774" frameX="-2" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0012" x="0" y="824" width="419" height="774" frameX="-2" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0013" x="0" y="824" width="419" height="774" frameX="-2" frameY="0" frameWidth="434" frameHeight="774"/>
+	<SubTexture name="tsubasa_title0014" x="0" y="824" width="419" height="774" frameX="-2" frameY="0" frameWidth="434" frameHeight="774"/>
+</TextureAtlas>
