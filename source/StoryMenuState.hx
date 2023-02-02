@@ -17,6 +17,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import lime.net.curl.CURLCode;
 import flixel.graphics.FlxGraphic;
+import flixel.addons.display.FlxBackdrop;
 import WeekData;
 
 using StringTools;
@@ -44,6 +45,7 @@ class StoryMenuState extends MusicBeatState
 
 	var difficultySelectors:FlxGroup;
 	var sprDifficulty:FlxSprite;
+	var chess:FlxBackdrop;
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
@@ -77,11 +79,22 @@ class StoryMenuState extends MusicBeatState
 		bgSprite = new FlxSprite(0, 56);
 		bgSprite.antialiasing = ClientPrefs.globalAntialiasing;
 
-		grpWeekText = new FlxTypedGroup<MenuItem>();
-		add(grpWeekText);
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG_c'));
+		bg.setGraphicSize(Std.int(bg.width * 1.175));
+		bg.screenCenter();
+		bg.antialiasing = ClientPrefs.globalAntialiasing;
 
-		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, 56, FlxColor.BLACK);
-		add(blackBarThingie);
+		chess = new FlxBackdrop(Paths.image('mebg2'), 0, 0, true, false);
+		chess.scrollFactor.set(0, 0.8);
+		chess.y -= 80;
+
+		chess.offset.x -= 0;
+		chess.offset.y += 0;
+		chess.velocity.x = 20;
+
+		grpWeekText = new FlxTypedGroup<MenuItem>();
+
+		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, 66, FlxColor.BLACK);
 
 		grpWeekCharacters = new FlxTypedGroup<MenuCharacter>();
 
@@ -107,7 +120,7 @@ class StoryMenuState extends MusicBeatState
 				weekThing.targetY = num;
 				grpWeekText.add(weekThing);
 
-				weekThing.screenCenter(X);
+				weekThing.x += 750;
 				weekThing.antialiasing = ClientPrefs.globalAntialiasing;
 				// weekThing.updateHitbox();
 
@@ -144,6 +157,7 @@ class StoryMenuState extends MusicBeatState
 		leftArrow.animation.addByPrefix('press', "arrow push left");
 		leftArrow.animation.play('idle');
 		leftArrow.antialiasing = ClientPrefs.globalAntialiasing;
+		leftArrow.visible = false;
 		difficultySelectors.add(leftArrow);
 
 		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
@@ -163,8 +177,13 @@ class StoryMenuState extends MusicBeatState
 		rightArrow.animation.addByPrefix('press', "arrow push right", 24, false);
 		rightArrow.animation.play('idle');
 		rightArrow.antialiasing = ClientPrefs.globalAntialiasing;
+		rightArrow.visible = false;
 		difficultySelectors.add(rightArrow);
 
+		add(bg);
+		add(chess);
+		add(blackBarThingie);
+		add(grpWeekText);
 		add(bgYellow);
 		add(bgSprite);
 		add(grpWeekCharacters);
@@ -324,10 +343,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 0)
-			curDifficulty = CoolUtil.difficulties.length-1;
-		if (curDifficulty >= CoolUtil.difficulties.length)
-			curDifficulty = 0;
+		if (curDifficulty < 1)
+			curDifficulty = 1;
+		if (curDifficulty >= 1)
+			curDifficulty = 1;
 
 		WeekData.setDirectoryFromWeek(loadedWeeks[curWeek]);
 
@@ -341,6 +360,7 @@ class StoryMenuState extends MusicBeatState
 			sprDifficulty.x = leftArrow.x + 60;
 			sprDifficulty.x += (308 - sprDifficulty.width) / 3;
 			sprDifficulty.alpha = 0;
+			sprDifficulty.visible = false;
 			sprDifficulty.y = leftArrow.y - 15;
 
 			if(tweenDifficulty != null) tweenDifficulty.cancel();
