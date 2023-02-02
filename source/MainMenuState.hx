@@ -176,7 +176,7 @@ class MainMenuState extends MusicBeatState
 				add(menu_character);
 		}
 		
-		line = new FlxSprite().loadGraphic(Paths.image('menubg/line'));
+		line = new FlxSprite().loadGraphic(Paths.image('menubg/line2'));
 		line.scrollFactor.set(0,0);
 		line.updateHitbox();
 		line.screenCenter();
@@ -223,7 +223,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.68));
-			FlxTween.tween(menuItem, {x: 90}, 2.5, {ease: FlxEase.backOut});
+			FlxTween.tween(menuItem, {x: 120}, 2.5, {ease: FlxEase.backOut});
 			menuItem.updateHitbox();
 
 
@@ -248,7 +248,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.scrollFactor.set(1, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.68));
-			FlxTween.tween(menuItem, {x: 90}, 2.5, {ease: FlxEase.backOut});
+			FlxTween.tween(menuItem, {x: 120}, 2.5, {ease: FlxEase.backOut});
 			menuItem.updateHitbox();
 
 
@@ -273,7 +273,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.scrollFactor.set(2, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.68));
-			FlxTween.tween(menuItem, {x: 90}, 2.5, {ease: FlxEase.backOut});
+			FlxTween.tween(menuItem, {x: 120}, 2.5, {ease: FlxEase.backOut});
 			menuItem.updateHitbox();
 
 
@@ -297,7 +297,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.scrollFactor.set(3, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.68));
-			FlxTween.tween(menuItem, {x: 90}, 2.5, {ease: FlxEase.backOut});
+			FlxTween.tween(menuItem, {x: 120}, 2.5, {ease: FlxEase.backOut});
 			menuItem.updateHitbox();
 
 		// FlxG.camera.follow(camFollowPos, null, 2);
@@ -353,7 +353,7 @@ class MainMenuState extends MusicBeatState
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 		line.x += 10;
-		FlxTween.tween(line, {x: -30}, 2.5, {ease: FlxEase.expoOut});
+		FlxTween.tween(line, {x: -840}, 2.5, {ease: FlxEase.expoOut});
 
 		if (!selectedSomethin)
 		{
