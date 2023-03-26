@@ -116,6 +116,20 @@ class FreeplayState extends MusicBeatState
 		chess.offset.x -= 0;
 		chess.offset.y += 0;
 		chess.velocity.x = 20;
+		
+		var outline = new FlxSprite().loadGraphic(Paths.image('title/outline'));
+		outline.scrollFactor.set(0,0);
+		outline.updateHitbox();
+		outline.screenCenter();
+		outline.antialiasing = true;
+		add(outline);
+
+		var disc = new FlxSprite(870, 300);
+		disc.frames = Paths.getSparrowAtlas('just_a_disc');
+		disc.animation.addByPrefix('just_a_disc', 'just_a_disc', 24);
+		disc.animation.play('just_a_disc');
+		disc.antialiasing = true;
+		add(disc);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
