@@ -197,7 +197,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		bgFade.scrollFactor.set();
 		bgFade.visible = true;
 		bgFade.alpha = 0;
-		add(bgFade);
+		//add(bgFade);
 
 		this.dialogueList = dialogueList;
 		spawnCharacters();

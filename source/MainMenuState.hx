@@ -38,7 +38,8 @@ class MainMenuState extends MusicBeatState
 		'story_mode',
 		'freeplay',
 		'credits',
-		'options'
+		'options',
+		'gallery'
 	];
 
 	var magenta:FlxSprite;
@@ -205,8 +206,8 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 0...optionShit.length)
 		// Story Mode
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 100);
+			var offset:Float = 108 - (Math.max(optionShit.length, 5) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100, 57);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[0]);
@@ -230,8 +231,8 @@ class MainMenuState extends MusicBeatState
 
 
 			// FreePlay Mode
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 250);
+			var offset:Float = 108 - (Math.max(optionShit.length, 5) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100, 187);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[1]);
@@ -255,8 +256,8 @@ class MainMenuState extends MusicBeatState
 
 
 			// Credits
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 400);
+			var offset:Float = 108 - (Math.max(optionShit.length, 5) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100, 320);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[2]);
@@ -277,10 +278,9 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 
 
-
 			// Options
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(100, 550);
+			var offset:Float = 108 - (Math.max(optionShit.length, 5) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100, 450);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[3]);
@@ -295,6 +295,31 @@ class MainMenuState extends MusicBeatState
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 3;
 			menuItem.scrollFactor.set(3, scr);
+			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
+			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.68));
+			FlxTween.tween(menuItem, {x: 120}, 2.5, {ease: FlxEase.backOut});
+			menuItem.updateHitbox();
+
+
+
+
+			// Gallery
+			var offset:Float = 108 - (Math.max(optionShit.length, 5) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100, 570);
+			menuItem.scale.x = scale;
+			menuItem.scale.y = scale;
+			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_gallery');
+			menuItem.animation.addByPrefix('idle', 'gallery basic', 24);
+			menuItem.animation.addByPrefix('selected', 'gallery white', 24);
+			menuItem.animation.play('idle');
+			menuItem.ID = 4;
+			menuItem.angle = -7;
+			menuItem.setGraphicSize(Std.int(menuItem.width * 0.80));
+			// menuItem.screenCenter(X);
+			menuItems.add(menuItem);
+			var scr:Float = (optionShit.length - 4) * 0.135;
+			if(optionShit.length < 6) scr = 4;
+			menuItem.scrollFactor.set(4, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.68));
 			FlxTween.tween(menuItem, {x: 120}, 2.5, {ease: FlxEase.backOut});
@@ -421,6 +446,8 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
+									case 'gallery':
+										MusicBeatState.switchState(new GalleryState());
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
@@ -464,7 +491,7 @@ class MainMenuState extends MusicBeatState
 			{
 				spr.animation.play('selected');
 				var add:Float = 0;
-				if(menuItems.length > 4) {
+				if(menuItems.length > 5) {
 					add = menuItems.length * 8;
 				}
 				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y - add);
