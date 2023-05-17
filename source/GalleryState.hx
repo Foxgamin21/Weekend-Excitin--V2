@@ -48,6 +48,9 @@ class GalleryState extends MusicBeatState
         'Ref of Tsubasa',//3
         'Ref of Ren',//4
         'Weekend Excitin thumbnail',//5
+        'Sketch',//6
+        'I hope she made lotsa spaghetti',//7
+
     ];
 
     override function create()
