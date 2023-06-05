@@ -37,6 +37,7 @@ class Cache extends MusicBeatState
 	var music = [];
 
 	var shitz:FlxText;
+	var loadBar:FlxSprite;
 
 	override function create()
 	{
@@ -47,13 +48,13 @@ class Cache extends MusicBeatState
 		bitmapData = new Map<String,FlxGraphic>();
 		bitmapData2 = new Map<String,FlxGraphic>();
 
-		var menuBG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loading/loading-' + FlxG.random.int(1, 3)));
+		var menuBG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loading/loading-' + FlxG.random.int(1, 4)));
 		menuBG.screenCenter();
 		add(menuBG);
 
 		shitz = new FlxText(12, 12, 300, "GAME IS LOADING. PLEASE WAIT...", 12);
 		shitz.scrollFactor.set();
-		shitz.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		shitz.setFormat("G.B.BOOT", 32, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(shitz);
 
 		#if cpp

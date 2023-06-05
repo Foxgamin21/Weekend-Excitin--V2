@@ -49,6 +49,22 @@ class GalleryState extends MusicBeatState
 		'Weekend Excitin thumbnail', // 5
 		'Sketch', // 6
 		'I hope she made lotsa spaghetti', // 7
+		'Minus design of Kochi', // 8
+		'Art by MJ_AANGEL', // 9
+		'Art by OngGamerZ0211', // 10
+		'Art by KokaKoala', // 11
+		'Art by SkyanUltar', // 12
+		'Art by QuixSiji', // 13
+		'Art by AnnikiVee', // 14
+		'Art by trd_yo', // 15
+		'Art by RHibatullina', // 16
+		'Art by Ino', // 17
+		'Art by ItsJaydenlol', // 18
+		'Art by Lofi', // 19
+		'Art by beautagicannie', // 20
+		'Art by JexenJade', // 21
+		'Art by CD', // 22
+		'Art by EL_la0323', // 23
 	];
 
 	override function create()
