@@ -6,6 +6,7 @@ import flixel.FlxSprite;
 import flixel.FlxSubState;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.addons.display.FlxBackdrop;
 import flixel.input.keyboard.FlxKey;
 import flixel.system.FlxSound;
 import flixel.text.FlxText;
@@ -20,9 +21,11 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Change Difficulty', 'Exit to menu'];
+	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Exit to menu'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
+	var chess:FlxBackdrop;
+	var outline:FlxSprite;
 
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
@@ -72,10 +75,23 @@ class PauseSubState extends MusicBeatSubstate
 
 		FlxG.sound.list.add(pauseMusic);
 
+		chess = new FlxBackdrop(Paths.image('mebg2'), #if (flixel < "5.0.0") 0, 0, true, false #else XY #end);
+		chess.scrollFactor.set(0, 0.8);
+		chess.y -= 80;
+		chess.velocity.x = 20;
+		add(chess);
+		
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		bg.alpha = 0;
 		bg.scrollFactor.set();
 		add(bg);
+
+		outline = new FlxSprite().loadGraphic(Paths.image('menubg/pausebg'));
+		outline.scrollFactor.set(0, 0);
+		outline.updateHitbox();
+		outline.screenCenter();
+		outline.antialiasing = true;
+		add(outline);
 
 		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
 		levelInfo.text += PlayState.SONG.song;
@@ -145,6 +161,9 @@ class PauseSubState extends MusicBeatSubstate
 
 		super.update(elapsed);
 		updateSkipTextStuff();
+
+		outline.x += 1;
+		FlxTween.tween(outline, {x: -240}, 2.5, {ease: FlxEase.expoOut});
 
 		var upP = controls.UI_UP_P;
 		var downP = controls.UI_DOWN_P;
