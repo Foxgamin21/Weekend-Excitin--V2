@@ -45,7 +45,7 @@ class CreditsState extends MusicBeatState
 		#end
 
 		persistentUpdate = true;
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat2'));
 		add(bg);
 		bg.screenCenter();
 		
@@ -81,6 +81,15 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			["Weekend Excitin' mod Team"],
+			['foxgaamin_',			'foxgamin',			"Main Programmer/Artist/Animator/Composer of Weekend Excitin'",	'https://twitter.com/foxgamin_',		'F3992F'],
+			['Kitsuism',			'kitsuism',			"Programmer of Weekend Excitin', helped with dialogue writing and grammar",					'https://twitter.com/Kitsuism',			'D70000'],
+			['Mupvof',				'mupvof',			"Icon artist of Weekend Excitin'",													'https://twitter.com/Mupvof26',			'BEAEFA'],
+			['Noza',				'noza',				"Composer for Weekend Excitin'",									'https://twitter.com/Mupvof26',			'BEAEFA'],
+			['Heartly',				'heartly',			'Voice actor of Kochi',											'https://heartlyartist.carrd.co/',		'FF8AD0'],
+			['el_la0323',			'el_la0323',		'Voice actor of Hika',											'https://twitter.com/ellsira33',		'93C47D'],
+			['adriarts19',			'adriarts19',		'Voice actor of Tsubasa',										'https://twitter.com/adriarts19',		'FF3277'],
+			['Zahaire',				'zahaire',			'Voice actor of Ren',											'https://twitter.com/Zahaire15',		'2D38F8'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],
