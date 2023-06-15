@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		170,
+		140
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "cat dia meow",
+			"idle_name": "cat dia meow0005"
+		},
+		{
+			"loop_name": "cat dia meow0005",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "cat dia meow0005",
+			"anim": "notalk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "cat dia rap",
+			"idle_offsets": [
+				0,
+				43
+			],
+			"idle_name": "cat dia rap0005",
+			"anim": "rap",
+			"loop_offsets": [
+				0,
+				43
+			]
+		},
+		{
+			"loop_name": "cat dia rap0005",
+			"idle_offsets": [
+				0,
+				43
+			],
+			"idle_name": "cat dia rap0005",
+			"anim": "norap",
+			"loop_offsets": [
+				0,
+				43
+			]
+		}
+	],
+	"image": "cat_dia"
+}

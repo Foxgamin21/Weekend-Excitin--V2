@@ -1,0 +1,140 @@
+{
+	"dialogue": [
+		{
+			"expression": "excited",
+			"text": "heh! what a coolswag guitarist!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "happy",
+			"text": "oh yeah! thank you so much, rapper!! you're awesome person i have ever seen!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "relax",
+			"text": "heh! no problem, my dude!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "happy",
+			"text": "i quite like it, bf!",
+			"boxState": "normal",
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasalt"
+		},
+		{
+			"sound": "ren",
+			"speed": 0.05,
+			"portrait": "ren",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "neat..."
+		},
+		{
+			"sound": "hika",
+			"speed": 0.05,
+			"portrait": "hikaalt",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "you two did very great!"
+		},
+		{
+			"sound": "hika",
+			"speed": 0.05,
+			"portrait": "hikaalt",
+			"boxState": "normal",
+			"expression": "chill",
+			"text": "but... you know wha-"
+		},
+		{
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "oh man! this is the greatest day we met the best rapper here!!"
+		},
+		{
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i really want to meet you again!"
+		},
+		{
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "heh! come see me anytime, bud!"
+		},
+		{
+			"sound": "hika",
+			"speed": 0.05,
+			"portrait": "hikaalt",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "ok, Kochi! you done??"
+		},
+		{
+			"sound": "hika",
+			"speed": 0.05,
+			"portrait": "hikaalt",
+			"boxState": "normal",
+			"expression": "chill",
+			"text": "anyway! you know what we d-"
+		},
+		{
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "alright, team! you guys can go home now! thanks for coming! :))"
+		},
+		{
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasalt",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "alright see you guys tomorrow!"
+		},
+		{
+			"sound": "ren",
+			"speed": 0.05,
+			"portrait": "ren",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
+		},
+		{
+			"sound": "hika",
+			"speed": 0.035,
+			"portrait": "hikaalt",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "HEY!!! WE ARE NOT DONE RIGHT NOW!!!!!!!"
+		},
+		{
+			"sound": "hika",
+			"speed": 0.035,
+			"portrait": "hikaalt",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "GRAHHHHH!!!!!! DAMN YOU, KOCHI!!!!!!!!!!!!!!"
+		}
+	]
+}

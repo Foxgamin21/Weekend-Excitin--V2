@@ -1,0 +1,186 @@
+{
+	"song": {
+		"events": [
+			[
+				1655.1724137931,
+				[
+					[
+						"CameraZoom",
+						"1.05",
+						"26.21"
+					]
+				]
+			],
+			[
+				80068.9655172413,
+				[
+					[
+						"CameraZoom",
+						"1.05",
+						"2.66"
+					]
+				]
+			],
+			[
+				80896.5517241379,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				81206.8965517241,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				81517.2413793103,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				81724.1379310344,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				81931.0344827586,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				82241.3793103448,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				82551.724137931,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				82758.6206896551,
+				[
+					[
+						"Change Character",
+						"dad",
+						"bunny_angry"
+					]
+				]
+			],
+			[
+				101379.310344828,
+				[
+					[
+						"CameraZoom",
+						"1.1",
+						"0.8"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"CameraZoom",
+						"1.1",
+						"1.9"
+					]
+				]
+			],
+			[
+				109241.379310345,
+				[
+					[
+						"Change Character",
+						"dad",
+						"bunny"
+					]
+				]
+			],
+			[
+				120801.724137931,
+				[
+					[
+						"Change Character",
+						"dad",
+						"bunny_angry"
+					]
+				]
+			],
+			[
+				120827.586206896,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				121241.379310345,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				121551.724137931,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			],
+			[
+				122068.965517241,
+				[
+					[
+						"Play Animation",
+						"shock",
+						"dad"
+					]
+				]
+			]
+		]
+	}
+}

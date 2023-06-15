@@ -1,0 +1,148 @@
+{
+	"dialogue": [
+		{
+			"expression": "smoke",
+			"text": "Oh yeah, i'm winnin' again! :))))",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "mad",
+			"text": "HEY I'M THE WINNER!!! YOU'RE CHEATING!!!",
+			"boxState": "angry",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "angry",
+			"text": "heh... nah kid! i'm always the best rapper.",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "hey",
+			"text": "Hey, this isnt the place to argue..",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "hey",
+			"text": "let's go home now, BF. I don't want to waste our time.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "uh",
+			"text": "Uhhh... why? We were gonna do the second song?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "what",
+			"text": "Yeah! We only did the first song!",
+			"boxState": "normal",
+			"portrait": "kochi",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "huh",
+			"text": "Huh... I'm not done with you yet!",
+			"boxState": "normal",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "clam",
+			"text": "Right! It's still the middle of the afternoon!",
+			"boxState": "normal",
+			"portrait": "tsubasa",
+			"speed": 0.05,
+			"sound": "tsubasa"
+		},
+		{
+			"expression": "talk",
+			"text": "See, GF? We've only just begun, baby!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "hey",
+			"text": "...fine...",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "ALright, why dont we start next song, blue hair dude!?",
+			"boxState": "normal",
+			"portrait": "tsubasa",
+			"speed": 0.05,
+			"sound": "tsubasa"
+		},
+		{
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasa",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "I wanna try right now."
+		},
+		{
+			"sound": "hika",
+			"speed": 0.05,
+			"portrait": "hika",
+			"boxState": "normal",
+			"expression": "woah",
+			"text": "A... you wha??"
+		},
+		{
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasa",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Yeah, why not? It was fun, right?"
+		},
+		{
+			"expression": "relax",
+			"text": "Sweet! I'm always ready!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "notalk",
+			"text": "......",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "drink",
+			"text": "Alright! let's start already!",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gf"
+		}
+	]
+}

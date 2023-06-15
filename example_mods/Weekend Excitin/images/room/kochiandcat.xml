@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kochiandcat.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kochiandcat0000" x="431" y="1389" width="322" height="581" frameX="-11" frameY="-15" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0001" x="431" y="1389" width="322" height="581" frameX="-11" frameY="-15" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0002" x="863" y="1388" width="325" height="589" frameX="-8" frameY="-6" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0003" x="863" y="1388" width="325" height="589" frameX="-8" frameY="-6" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0004" x="1294" y="1383" width="328" height="593" frameX="-7" frameY="-2" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0005" x="1294" y="1383" width="328" height="593" frameX="-7" frameY="-2" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0006" x="1298" y="0" width="330" height="595" frameX="-6" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0007" x="1298" y="0" width="330" height="595" frameX="-6" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0008" x="432" y="694" width="331" height="595" frameX="-6" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0009" x="432" y="694" width="331" height="595" frameX="-6" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0010" x="432" y="694" width="331" height="595" frameX="-6" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0011" x="432" y="694" width="331" height="595" frameX="-6" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0012" x="432" y="694" width="331" height="595" frameX="-6" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0013" x="866" y="0" width="332" height="595" frameX="-5" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0014" x="866" y="0" width="332" height="595" frameX="-5" frameY="0" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0015" x="1294" y="695" width="333" height="588" frameX="0" frameY="-7" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0016" x="1294" y="695" width="333" height="588" frameX="0" frameY="-7" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0017" x="863" y="695" width="331" height="593" frameX="-2" frameY="-2" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0018" x="863" y="695" width="331" height="593" frameX="-2" frameY="-2" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0019" x="0" y="1388" width="331" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0020" x="0" y="1388" width="331" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0021" x="0" y="694" width="332" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0022" x="0" y="694" width="332" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0023" x="0" y="0" width="333" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0024" x="0" y="0" width="333" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0025" x="0" y="0" width="333" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0026" x="0" y="0" width="333" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0027" x="0" y="0" width="333" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0028" x="433" y="0" width="333" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+	<SubTexture name="kochiandcat0029" x="433" y="0" width="333" height="594" frameX="-4" frameY="-1" frameWidth="337" frameHeight="596"/>
+</TextureAtlas>

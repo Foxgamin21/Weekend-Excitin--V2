@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bunny_angry.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bunny down angry0000" x="1057" y="2408" width="249" height="462" frameX="0" frameY="-6" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0001" x="2463" y="3006" width="249" height="462" frameX="0" frameY="-6" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0002" x="2815" y="3004" width="256" height="466" frameX="0" frameY="-2" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0003" x="3171" y="3004" width="256" height="466" frameX="0" frameY="-2" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0004" x="0" y="2414" width="256" height="467" frameX="-2" frameY="-1" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0005" x="1057" y="2975" width="256" height="467" frameX="-2" frameY="-1" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0006" x="1408" y="2407" width="256" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0007" x="701" y="2408" width="256" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0008" x="1413" y="2975" width="255" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0009" x="356" y="2976" width="255" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0010" x="0" y="2981" width="255" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0011" x="1413" y="2975" width="255" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0012" x="356" y="2976" width="255" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0013" x="0" y="2981" width="255" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny down angry0014" x="1413" y="2975" width="255" height="468" frameX="-2" frameY="0" frameWidth="258" frameHeight="468"/>
+	<SubTexture name="bunny idle angry0000" x="2874" y="0" width="258" height="497" frameX="0" frameY="-5" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0001" x="3232" y="0" width="258" height="497" frameX="0" frameY="-5" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0002" x="1408" y="1806" width="252" height="501" frameX="-7" frameY="-1" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0003" x="1760" y="1806" width="252" height="501" frameX="-7" frameY="-1" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0004" x="350" y="1809" width="251" height="502" frameX="-8" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0005" x="2828" y="2402" width="251" height="502" frameX="-8" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0006" x="3179" y="2402" width="251" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0007" x="2112" y="2406" width="251" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0008" x="3202" y="1800" width="252" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0009" x="2124" y="1804" width="252" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0010" x="2476" y="1804" width="252" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0011" x="3554" y="1804" width="252" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0012" x="704" y="1806" width="252" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0013" x="1056" y="1806" width="252" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny idle angry0014" x="3554" y="1804" width="252" height="502" frameX="-9" frameY="0" frameWidth="261" frameHeight="502"/>
+	<SubTexture name="bunny left angry0000" x="2463" y="2406" width="252" height="500" frameX="-16" frameY="-2" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0001" x="3530" y="2406" width="252" height="500" frameX="-16" frameY="-2" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0002" x="2872" y="1199" width="254" height="501" frameX="-6" frameY="-1" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0003" x="3226" y="1199" width="254" height="501" frameX="-6" frameY="-1" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0004" x="722" y="602" width="255" height="502" frameX="-2" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0005" x="1077" y="602" width="255" height="502" frameX="-2" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0006" x="2162" y="0" width="256" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0007" x="2518" y="0" width="256" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0008" x="2162" y="602" width="255" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0009" x="2517" y="602" width="255" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0010" x="3584" y="602" width="255" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0011" x="1432" y="604" width="255" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0012" x="1787" y="604" width="255" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0013" x="3584" y="602" width="255" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny left angry0014" x="1432" y="604" width="255" height="502" frameX="0" frameY="0" frameWidth="268" frameHeight="502"/>
+	<SubTexture name="bunny legs down0000" x="1764" y="2407" width="121" height="143"/>
+	<SubTexture name="bunny right angry0000" x="0" y="0" width="261" height="506" frameX="0" frameY="0" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0001" x="361" y="0" width="261" height="506" frameX="0" frameY="0" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0002" x="722" y="0" width="261" height="502" frameX="-8" frameY="-4" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0003" x="1083" y="0" width="261" height="502" frameX="-8" frameY="-4" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0004" x="0" y="606" width="255" height="501" frameX="-14" frameY="-5" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0005" x="355" y="606" width="255" height="501" frameX="-14" frameY="-5" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0006" x="2142" y="1204" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0007" x="2496" y="1204" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0008" x="3580" y="1204" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0009" x="1416" y="1206" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0010" x="1770" y="1206" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0011" x="3580" y="1204" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0012" x="1416" y="1206" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0013" x="1770" y="1206" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny right angry0014" x="3580" y="1204" width="254" height="500" frameX="-16" frameY="-6" frameWidth="270" frameHeight="506"/>
+	<SubTexture name="bunny shock angry0000" x="0" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0001" x="352" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0002" x="2850" y="1800" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0003" x="0" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0004" x="352" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0005" x="2850" y="1800" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0006" x="0" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0007" x="352" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0008" x="2850" y="1800" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0009" x="0" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0010" x="352" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0011" x="2850" y="1800" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0012" x="0" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0013" x="352" y="1207" width="252" height="502"/>
+	<SubTexture name="bunny shock angry0014" x="2850" y="1800" width="252" height="502"/>
+	<SubTexture name="bunny up angry0000" x="1444" y="0" width="259" height="504" frameX="0" frameY="-1" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0001" x="1803" y="0" width="259" height="504" frameX="0" frameY="-1" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0002" x="0" y="1809" width="250" height="505" frameX="-8" frameY="0" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0003" x="0" y="1809" width="250" height="505" frameX="-8" frameY="0" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0004" x="710" y="1204" width="253" height="502" frameX="-5" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0005" x="1063" y="1204" width="253" height="502" frameX="-5" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0006" x="3590" y="0" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0007" x="2874" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0008" x="3229" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0009" x="3229" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0010" x="3229" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0011" x="3229" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0012" x="3229" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0013" x="3229" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+	<SubTexture name="bunny up angry0014" x="3229" y="597" width="255" height="502" frameX="-4" frameY="-3" frameWidth="259" frameHeight="505"/>
+</TextureAtlas>

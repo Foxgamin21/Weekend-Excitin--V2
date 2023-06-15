@@ -1,0 +1,236 @@
+{
+	"dialogue": [
+		{
+			"sound": ".",
+			"speed": 0.08,
+			"portrait": "noone",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(12:00 p.m)"
+		},
+		{
+			"expression": "happy",
+			"text": "oh hey, Hika and Tsubasa! thanks for coming here!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "notalk",
+			"text": "Kochi! why you call us so late at night?",
+			"boxState": "normal",
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasalt"
+		},
+		{
+			"expression": "notalk",
+			"text": "its 12 a.m right now! you dont want to go to school?",
+			"boxState": "normal",
+			"sound": "hika",
+			"speed": 0.05,
+			"portrait": "hikaalt"
+		},
+		{
+			"expression": "happy",
+			"text": "nah! we want to introduce a special guest tonight!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "happy",
+			"text": "introducing, the best rapper ever! boyfriends from Newgrounds!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "uh",
+			"text": "...",
+			"boxState": "normal",
+			"sound": ".",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "sans",
+			"text": "uh... hi chat",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "normal",
+			"text": "ahh, thats nerd we met in saturday, right?",
+			"boxState": "normal",
+			"sound": "hika",
+			"speed": 0.05,
+			"portrait": "hikaalt"
+		},
+		{
+			"expression": "chill",
+			"text": "well! we met you again, blue guy!",
+			"boxState": "normal",
+			"portrait": "hikaalt",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "angry",
+			"text": "yea, so what?",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "smug",
+			"text": "nothing! i just want to rematch with you...",
+			"boxState": "normal",
+			"portrait": "hikaalt",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "normal",
+			"text": "you know? singing a song, again!",
+			"boxState": "normal",
+			"portrait": "hikaalt",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "uh",
+			"text": "huh i understand",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "but sorry, kid! i want to sing with your friend!",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "notalk",
+			"text": "fine. do whatever you want...",
+			"boxState": "normal",
+			"portrait": "hikaalt",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "excited",
+			"text": "oh hey, strongest girl!",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "happy",
+			"text": "hey, rapper! whats up?",
+			"boxState": "normal",
+			"portrait": "tsubasalt",
+			"speed": 0.05,
+			"sound": "tsubasa"
+		},
+		{
+			"expression": "talk",
+			"text": "heh! you look so sick, girl!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "happy",
+			"text": "heh! thx buddy!",
+			"boxState": "normal",
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasalt"
+		},
+		{
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasalt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "well! i've heard about you that you beated that purple demon man and your fangirl"
+		},
+		{
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "yea... they suck"
+		},
+		{
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "but anyway, i finally got my girlfriend and escaped that damn fangirl"
+		},
+		{
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasalt",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "yeah! that was pretty nice!"
+		},
+		{
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt",
+			"boxState": "normal",
+			"expression": "chill",
+			"text": "hehe, neat!"
+		},
+		{
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt",
+			"boxState": "normal",
+			"expression": "guitar",
+			"text": "hey bf! ready for my challenge right now?"
+		},
+		{
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt",
+			"boxState": "normal",
+			"expression": "guitar",
+			"text": "let's make this song much higher ever!!!"
+		},
+		{
+			"sound": ".",
+			"speed": 0.05,
+			"portrait": "ren",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "cool..."
+		},
+		{
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "alr im ready now >:)"
+		}
+	]
+}

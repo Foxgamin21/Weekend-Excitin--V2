@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kochi_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kochi dia angry0000" x="1662" y="2993" width="364" height="523"/>
+	<SubTexture name="kochi dia angry0001" x="0" y="3072" width="364" height="523"/>
+	<SubTexture name="kochi dia bruh0000" x="2497" y="3477" width="364" height="523"/>
+	<SubTexture name="kochi dia bruh0001" x="2912" y="3477" width="364" height="523"/>
+	<SubTexture name="kochi dia clam0000" x="2502" y="2315" width="365" height="531"/>
+	<SubTexture name="kochi dia clam0001" x="2918" y="2315" width="365" height="531"/>
+	<SubTexture name="kochi dia clam0002" x="417" y="2403" width="365" height="531"/>
+	<SubTexture name="kochi dia clam0003" x="833" y="2411" width="365" height="531"/>
+	<SubTexture name="kochi dia clam0004" x="1249" y="2411" width="365" height="531"/>
+	<SubTexture name="kochi dia clam0005" x="1665" y="2411" width="365" height="531"/>
+	<SubTexture name="kochi dia cute0000" x="2940" y="0" width="410" height="524"/>
+	<SubTexture name="kochi dia cute0001" x="2940" y="575" width="410" height="524"/>
+	<SubTexture name="kochi dia cute0002" x="588" y="663" width="410" height="524"/>
+	<SubTexture name="kochi dia dumbass0000" x="1033" y="1245" width="366" height="532"/>
+	<SubTexture name="kochi dia dumbass0001" x="1450" y="1245" width="366" height="532"/>
+	<SubTexture name="kochi dia dumbass0002" x="1867" y="1245" width="366" height="532"/>
+	<SubTexture name="kochi dia dumbass0003" x="2284" y="1245" width="366" height="532"/>
+	<SubTexture name="kochi dia dumbass0004" x="0" y="1326" width="366" height="532"/>
+	<SubTexture name="kochi dia dumbass0005" x="2701" y="1732" width="366" height="532"/>
+	<SubTexture name="kochi dia guitar0000" x="0" y="0" width="537" height="612"/>
+	<SubTexture name="kochi dia guitar0001" x="588" y="0" width="537" height="612"/>
+	<SubTexture name="kochi dia guitar0002" x="1176" y="0" width="537" height="612"/>
+	<SubTexture name="kochi dia guitar0003" x="1764" y="0" width="537" height="612"/>
+	<SubTexture name="kochi dia guitar0004" x="2352" y="0" width="537" height="612"/>
+	<SubTexture name="kochi dia guitar0005" x="0" y="663" width="537" height="612"/>
+	<SubTexture name="kochi dia happy0000" x="2081" y="2411" width="365" height="529"/>
+	<SubTexture name="kochi dia happy0001" x="0" y="2492" width="365" height="529"/>
+	<SubTexture name="kochi dia happy0002" x="2497" y="2897" width="365" height="529"/>
+	<SubTexture name="kochi dia happy0003" x="2913" y="2897" width="365" height="529"/>
+	<SubTexture name="kochi dia happy0004" x="416" y="2985" width="365" height="529"/>
+	<SubTexture name="kochi dia happy0005" x="2081" y="2991" width="365" height="529"/>
+	<SubTexture name="kochi dia huh0000" x="832" y="2993" width="364" height="523"/>
+	<SubTexture name="kochi dia huh0001" x="1247" y="2993" width="364" height="523"/>
+	<SubTexture name="kochi dia sorry0000" x="1049" y="663" width="394" height="531"/>
+	<SubTexture name="kochi dia sorry0001" x="1494" y="663" width="394" height="531"/>
+	<SubTexture name="kochi dia sorry0002" x="1939" y="663" width="394" height="531"/>
+	<SubTexture name="kochi dia sorry0003" x="2384" y="663" width="394" height="531"/>
+	<SubTexture name="kochi dia sorry0004" x="2829" y="1150" width="394" height="531"/>
+	<SubTexture name="kochi dia sorry0005" x="588" y="1238" width="394" height="531"/>
+	<SubTexture name="kochi dia talk0000" x="417" y="1820" width="366" height="532"/>
+	<SubTexture name="kochi dia talk0001" x="834" y="1828" width="366" height="532"/>
+	<SubTexture name="kochi dia talk0002" x="1251" y="1828" width="366" height="532"/>
+	<SubTexture name="kochi dia talk0003" x="1668" y="1828" width="366" height="532"/>
+	<SubTexture name="kochi dia talk0004" x="2085" y="1828" width="366" height="532"/>
+	<SubTexture name="kochi dia talk0005" x="0" y="1909" width="366" height="532"/>
+	<SubTexture name="kochi dia what0000" x="415" y="3565" width="364" height="523"/>
+	<SubTexture name="kochi dia what0001" x="830" y="3567" width="364" height="523"/>
+</TextureAtlas>

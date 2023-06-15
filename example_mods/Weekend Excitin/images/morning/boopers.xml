@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="boopers.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="booper instance 10000" x="0" y="1835" width="1564" height="506" frameX="-4" frameY="-7" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10001" x="0" y="1835" width="1564" height="506" frameX="-4" frameY="-7" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10002" x="0" y="1225" width="1563" height="510" frameX="-3" frameY="-3" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10003" x="0" y="1225" width="1563" height="510" frameX="-3" frameY="-3" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10004" x="0" y="613" width="1562" height="512" frameX="-1" frameY="-1" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10005" x="0" y="613" width="1562" height="512" frameX="-1" frameY="-1" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10006" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10007" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10008" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10009" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10010" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10011" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10012" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10013" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+	<SubTexture name="booper instance 10014" x="0" y="0" width="1563" height="513" frameX="0" frameY="0" frameWidth="1568" frameHeight="513"/>
+</TextureAtlas>

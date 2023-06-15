@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf dia #10000" x="521" y="2105" width="421" height="423"/>
+	<SubTexture name="gf dia #20000" x="0" y="2112" width="421" height="423" frameX="0" frameY="-7" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #20001" x="0" y="2112" width="421" height="423" frameX="0" frameY="-7" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #20002" x="0" y="1586" width="421" height="426" frameX="0" frameY="-4" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #20003" x="0" y="1586" width="421" height="426" frameX="0" frameY="-4" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #20004" x="1057" y="528" width="421" height="430"/>
+	<SubTexture name="gf dia #20005" x="1057" y="528" width="421" height="430"/>
+	<SubTexture name="gf dia #30000" x="529" y="0" width="434" height="423" frameX="0" frameY="-5" frameWidth="440" frameHeight="428"/>
+	<SubTexture name="gf dia #30001" x="529" y="0" width="434" height="423" frameX="0" frameY="-5" frameWidth="440" frameHeight="428"/>
+	<SubTexture name="gf dia #30002" x="529" y="523" width="428" height="425" frameX="-7" frameY="-3" frameWidth="440" frameHeight="428"/>
+	<SubTexture name="gf dia #30003" x="529" y="523" width="428" height="425" frameX="-7" frameY="-3" frameWidth="440" frameHeight="428"/>
+	<SubTexture name="gf dia #30004" x="1063" y="0" width="427" height="428" frameX="-13" frameY="0" frameWidth="440" frameHeight="428"/>
+	<SubTexture name="gf dia #30005" x="1063" y="0" width="427" height="428" frameX="-13" frameY="0" frameWidth="440" frameHeight="428"/>
+	<SubTexture name="gf dia #40000" x="1042" y="2107" width="421" height="423" frameX="0" frameY="-7" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #40001" x="1042" y="2107" width="421" height="423" frameX="0" frameY="-7" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #40002" x="521" y="1578" width="421" height="427" frameX="0" frameY="-3" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #40003" x="521" y="1578" width="421" height="427" frameX="0" frameY="-3" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #40004" x="521" y="1048" width="421" height="430"/>
+	<SubTexture name="gf dia #40005" x="521" y="1048" width="421" height="430"/>
+	<SubTexture name="gf dia #50000" x="1042" y="1584" width="421" height="423" frameX="0" frameY="-7" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #50001" x="1042" y="1584" width="421" height="423" frameX="0" frameY="-7" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #50002" x="0" y="1059" width="421" height="427" frameX="0" frameY="-3" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #50003" x="0" y="1059" width="421" height="427" frameX="0" frameY="-3" frameWidth="421" frameHeight="430"/>
+	<SubTexture name="gf dia #50004" x="0" y="529" width="421" height="430"/>
+	<SubTexture name="gf dia #50005" x="0" y="529" width="421" height="430"/>
+	<SubTexture name="gf dia #60000" x="521" y="2628" width="421" height="423" frameX="0" frameY="-6" frameWidth="429" frameHeight="429"/>
+	<SubTexture name="gf dia #60001" x="521" y="2628" width="421" height="423" frameX="0" frameY="-6" frameWidth="429" frameHeight="429"/>
+	<SubTexture name="gf dia #60002" x="1042" y="1058" width="424" height="426" frameX="0" frameY="-3" frameWidth="429" frameHeight="429"/>
+	<SubTexture name="gf dia #60003" x="1042" y="1058" width="424" height="426" frameX="0" frameY="-3" frameWidth="429" frameHeight="429"/>
+	<SubTexture name="gf dia #60004" x="0" y="0" width="429" height="429"/>
+	<SubTexture name="gf dia #60005" x="0" y="0" width="429" height="429"/>
+</TextureAtlas>

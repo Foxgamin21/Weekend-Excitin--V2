@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-35,
+				230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "kochi idle"
+		},
+		{
+			"offsets": [
+				-3,
+				229
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "kochi left"
+		},
+		{
+			"offsets": [
+				-34,
+				229
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "kochi right"
+		},
+		{
+			"offsets": [
+				-37,
+				158
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "kochi down"
+		},
+		{
+			"offsets": [
+				-29,
+				247
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "kochi up"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/fox-without-guitar",
+	"position": [
+		50,
+		310
+	],
+	"healthicon": "fox",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		155,
+		41
+	],
+	"camera_position": [
+		40,
+		-180
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

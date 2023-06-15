@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-87,
+				-110
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "lucky cat idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				-114
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "lucky cat left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-79,
+				-110
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "lucky cat right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-78,
+				-54
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "lucky cat up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				-207
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "lucky cat down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cat",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "cat",
+	"flip_x": false,
+	"healthbar_colors": [
+		118,
+		118,
+		118
+	],
+	"camera_position": [
+		70,
+		120
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

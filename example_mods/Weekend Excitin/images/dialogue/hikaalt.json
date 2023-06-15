@@ -1,0 +1,154 @@
+{
+	"position": [
+		160,
+		-30
+	],
+	"dialogue_pos": "left",
+	"scale": 1.45,
+	"image": "hikaalt_dia",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-1
+			],
+			"loop_offsets": [
+				-1,
+				-1
+			],
+			"anim": "talk",
+			"idle_name": "hika dia talk0005",
+			"loop_name": "hika dia talk"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-5
+			],
+			"anim": "notalk",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"loop_name": "hika dia notalk",
+			"idle_name": "hika dia notalk"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-5
+			],
+			"anim": "angry",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"loop_name": "hika dia angry",
+			"idle_name": "hika dia angry"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				0
+			],
+			"anim": "mad",
+			"idle_offsets": [
+				-1,
+				0
+			],
+			"loop_name": "hika dia mad",
+			"idle_name": "hika dia mad0005"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-5
+			],
+			"anim": "huh",
+			"idle_offsets": [
+				0,
+				-5
+			],
+			"loop_name": "hika dia huh",
+			"idle_name": "hika dia huh"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				0
+			],
+			"anim": "chill",
+			"idle_offsets": [
+				-1,
+				0
+			],
+			"loop_name": "hika dia chill",
+			"idle_name": "hika dia chill0005"
+		},
+		{
+			"loop_offsets": [
+				1,
+				-5
+			],
+			"anim": "love",
+			"idle_offsets": [
+				1,
+				-5
+			],
+			"loop_name": "hika dia love",
+			"idle_name": "hika dia love"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-5
+			],
+			"anim": "woah",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"loop_name": "hika dia woah",
+			"idle_name": "hika dia woah"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-5
+			],
+			"anim": "what",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"loop_name": "hika dia what",
+			"idle_name": "hika dia what"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-5
+			],
+			"anim": "smug",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"loop_name": "hika dia smug",
+			"idle_name": "hika dia smug"
+		},
+		{
+			"loop_name": "hika dia normal",
+			"idle_offsets": [
+				-1,
+				1
+			],
+			"idle_name": "hika dia normal0005",
+			"anim": "normal",
+			"loop_offsets": [
+				-1,
+				1
+			]
+		}
+	]
+}

@@ -1,0 +1,114 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-95,
+				-170
+			],
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "gf idle alt"
+		},
+		{
+			"offsets": [
+				-86,
+				-168
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "cheer",
+			"loop": false,
+			"name": "gf idle cheer"
+		},
+		{
+			"offsets": [
+				-68,
+				-177
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"fps": 23,
+			"anim": "sad",
+			"loop": false,
+			"name": "gf sad alt"
+		},
+		{
+			"offsets": [
+				-95,
+				-170
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"fps": 23,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "gf idle alt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gf-alt",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		140,
+		140
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

@@ -1,0 +1,89 @@
+{
+	"position": [
+		160,
+		-50
+	],
+	"dialogue_pos": "left",
+	"scale": 1.45,
+	"image": "tsubasa_dia",
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "tsubasa dia talk0005",
+			"loop_name": "tsubasa dia talk"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-11
+			],
+			"anim": "notalk",
+			"idle_offsets": [
+				0,
+				-11
+			],
+			"loop_name": "tsubasa dia notalk",
+			"idle_name": "tsubasa dia notalk"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-3
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				-1,
+				-3
+			],
+			"loop_name": "tsubasa dia happy",
+			"idle_name": "tsubasa dia happy0005"
+		},
+		{
+			"loop_offsets": [
+				-2,
+				-11
+			],
+			"anim": "clam",
+			"idle_offsets": [
+				-2,
+				-11
+			],
+			"loop_name": "tsubasa dia clam",
+			"idle_name": "tsubasa dia clam"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-11
+			],
+			"anim": "bored",
+			"idle_offsets": [
+				0,
+				-11
+			],
+			"loop_name": "tsubasa dia bored",
+			"idle_name": "tsubasa dia bored"
+		},
+		{
+			"loop_name": "tsubasa dia shock",
+			"idle_offsets": [
+				20,
+				0
+			],
+			"idle_name": "tsubasa dia shock0005",
+			"anim": "shock",
+			"loop_offsets": [
+				20,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,167 @@
+{
+	"position": [
+		0,
+		40
+	],
+	"dialogue_pos": "right",
+	"scale": 1.45,
+	"image": "bfalt_dia",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-1
+			],
+			"loop_offsets": [
+				-1,
+				-1
+			],
+			"anim": "talk",
+			"idle_name": "bf dia talk0005",
+			"loop_name": "bf dia talk"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"anim": "uh",
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"loop_name": "bf dia uh",
+			"idle_name": "bf dia uh"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "excited",
+			"idle_offsets": [
+				-1,
+				0
+			],
+			"loop_name": "bf dia excited",
+			"idle_name": "bf dia excited0005"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"anim": "smoke",
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"idle_name": "bf dia smoke",
+			"loop_name": "bf dia smoke"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"anim": "relax",
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"idle_name": "bf dia relax",
+			"loop_name": "bf dia relax"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"anim": "bored",
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"idle_name": "bf dia bored",
+			"loop_name": "bf dia bored"
+		},
+		{
+			"idle_offsets": [
+				90,
+				-4
+			],
+			"anim": "wait",
+			"loop_offsets": [
+				90,
+				-4
+			],
+			"idle_name": "bf dia wait",
+			"loop_name": "bf dia wait"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"anim": "chill",
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"idle_name": "bf dia chill",
+			"loop_name": "bf dia chill"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"anim": "angry",
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"idle_name": "bf dia angry",
+			"loop_name": "bf dia angry"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "sans",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bf dia sans",
+			"loop_name": "bf dia sans"
+		},
+		{
+			"loop_name": "bf dia phone",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"idle_name": "bf dia phone",
+			"anim": "phone",
+			"loop_offsets": [
+				0,
+				-10
+			]
+		},
+		{
+			"loop_name": "bf dia confused",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"idle_name": "bf dia confused",
+			"anim": "confused",
+			"loop_offsets": [
+				0,
+				-10
+			]
+		}
+	]
+}

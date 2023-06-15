@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		160,
+		-60
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "ren dia talk",
+			"idle_name": "ren dia talk"
+		},
+		{
+			"loop_name": "ren dia behind",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ren dia behind",
+			"anim": "behind",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "ren dia bored",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ren dia bored",
+			"anim": "bored",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "ren dia chill",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ren dia chill",
+			"anim": "chill",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "ren dia clam",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ren dia clam",
+			"anim": "clam",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "ren_dia"
+}

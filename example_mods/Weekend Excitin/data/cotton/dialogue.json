@@ -1,0 +1,228 @@
+{
+	"dialogue": [
+		{
+			"expression": "happy",
+			"text": "Oh this is so nice, BF!",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "happy",
+			"text": "We're having a great Saturday afternoon! :)",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Sure are!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "relax",
+			"text": "I love going outside on Saturday afternoon...",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "relax",
+			"text": "without rapping... :]",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "*Bumps into someone*",
+			"boxState": "normal",
+			"portrait": "noone",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "scare",
+			"text": "Hey, that hurt! :(",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "sorry",
+			"text": "Oh! Sorry my fault...",
+			"boxState": "normal",
+			"portrait": "kochi",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "talk",
+			"text": "Don't run so fast, Kochi.",
+			"boxState": "normal",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "talk",
+			"text": "These guys are...",
+			"boxState": "normal",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "shock",
+			"text": "holy sh1t is that boyfriend fnf from newground dot com?????????",
+			"boxState": "normal",
+			"portrait": "tsubasa",
+			"speed": 0.02,
+			"sound": "tsubasa"
+		},
+		{
+			"expression": "uh",
+			"text": "Yo! You guys know about me?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "excited",
+			"text": "Yeah, baby! I'm Boyfriend from Friday Night Funkin - the most popular rapper with a love for music and donuts! >:]",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "smoke",
+			"text": "I'm the biggest coolswag man in Newgrounds.",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "chill",
+			"text": "Oh geez, that's lame!",
+			"boxState": "normal",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "angry",
+			"text": "What??",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "chill",
+			"text": "I'm Hika - the cutest blue rabbit girl with 15k followers on TikTok and 299k followers on Instagram!",
+			"boxState": "normal",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "chill",
+			"text": "And also i'm WAY better than you at singing! >:))))",
+			"boxState": "normal",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "what",
+			"text": "Erm... i didn't know you can sing?",
+			"boxState": "normal",
+			"portrait": "kochi",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "talk",
+			"text": "Yeah! We've never seen you sing for us!",
+			"boxState": "normal",
+			"sound": "tsubasa",
+			"speed": 0.05,
+			"portrait": "tsubasa"
+		},
+		{
+			"expression": "angry",
+			"text": "Yeah, you're actually lame...",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "mad",
+			"text": "HEY, WATCH IT!",
+			"boxState": "angry",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "mad",
+			"text": "I'LL SING WITH YOU RIGHT HERE, RIGHT NOW!!!!",
+			"boxState": "angry",
+			"portrait": "hika",
+			"speed": 0.05,
+			"sound": "hika"
+		},
+		{
+			"expression": "chill",
+			"text": "ooh so you mean rap battle :D",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "chill",
+			"text": "yea",
+			"boxState": "normal",
+			"portrait": "hika",
+			"speed": 0.02,
+			"sound": "hika"
+		},
+		{
+			"expression": "chill",
+			"text": "alright",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.02,
+			"sound": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Hey GF i changed my mind. Rapping is better than going outside.",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "hey",
+			"text": "whatever :l",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gf"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				310
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "raccoon idle"
+		},
+		{
+			"offsets": [
+				13,
+				310
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "raccoon left"
+		},
+		{
+			"offsets": [
+				-67,
+				165
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "raccoon down"
+		},
+		{
+			"offsets": [
+				-15,
+				312
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "raccoon up"
+		},
+		{
+			"offsets": [
+				-94,
+				267
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "raccoon right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/raccoon",
+	"position": [
+		60,
+		330
+	],
+	"healthicon": "raccoon",
+	"flip_x": false,
+	"healthbar_colors": [
+		167,
+		127,
+		93
+	],
+	"camera_position": [
+		100,
+		-240
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

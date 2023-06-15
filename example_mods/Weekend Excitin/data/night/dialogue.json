@@ -1,0 +1,284 @@
+{
+	"dialogue": [
+		{
+			"expression": "angry",
+			"text": "Okay, i'm done with you now...",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "meow",
+			"boxState": "normal",
+			"portrait": "cat",
+			"speed": 0.05,
+			"sound": "cat"
+		},
+		{
+			"expression": "hey",
+			"text": "...so we can go home now?",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "angry",
+			"text": "Not yet.",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "phone",
+			"text": "Still gotta find a way...",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "angry",
+			"text": "So where the hell are we...?",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "*click*",
+			"boxState": "normal",
+			"portrait": "noone",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "uh",
+			"text": "oh",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "what",
+			"text": "?",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "what",
+			"text": "BF???",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "uh",
+			"text": "Oh fox dude i met yesterday",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Whats going on, kochi?",
+			"boxState": "normal",
+			"portrait": "ren",
+			"speed": 0.05,
+			"sound": "ren"
+		},
+		{
+			"expression": "what",
+			"text": "Um, what are you doing here, rapper?",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "what",
+			"text": "...and how did you get in here?",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "sans",
+			"text": "you left the window open",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "bruh",
+			"text": "oh...",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "talk",
+			"text": "We're trying to find a way to Boyfriend's work.",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "hey",
+			"text": "But BF is so fucking dumb. He used some awful maps app on his phone to find his way",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "what",
+			"text": "That's... weird.",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "happy",
+			"text": "Anyway, hey, we met again! Welcome to our room!",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "cat",
+			"text": "And thanks for having a fun time with my CAT!",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.035,
+			"sound": "kochi"
+		},
+		{
+			"expression": "cat",
+			"text": "OMG!!! WHY ARE YOU SO FUNNY!!!??? I HAD GONE HOME TO PLAY WITH YOU RIGHT NOW!!!",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.035,
+			"sound": "kochi"
+		},
+		{
+			"expression": "cat",
+			"text": "YOU WANT SOME TREATS!!! SURE, I WILL GIVE THEM ALL TO YOOOOOOOU!!!!!",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.035,
+			"sound": "kochi"
+		},
+		{
+			"expression": "meow",
+			"text": "AAAAAAAAAAAHHHHH! MY FACE!!!",
+			"boxState": "angry",
+			"portrait": "kochialt",
+			"speed": 0.03,
+			"sound": "kochi"
+		},
+		{
+			"expression": "behind",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "ren",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "talk",
+			"text": "So yea, you are Boyfriend from newgrounds?",
+			"boxState": "normal",
+			"sound": "ren",
+			"speed": 0.05,
+			"portrait": "ren"
+		},
+		{
+			"expression": "uh",
+			"text": "huh, me??",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "excited",
+			"text": "That's right man! i'm...",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "notalk",
+			"text": "Boyfriend from Friday Night Funkin - the most popular rapper with a love for music and donuts",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.03,
+			"portrait": "gfalt"
+		},
+		{
+			"expression": "angry",
+			"text": "That's MY line!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "hey",
+			"text": "whatever.",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.05,
+			"portrait": "gfalt"
+		},
+		{
+			"expression": "talk",
+			"text": "oh okay",
+			"boxState": "normal",
+			"sound": "ren",
+			"speed": 0.05,
+			"portrait": "ren"
+		},
+		{
+			"expression": "clam",
+			"text": "so uh...",
+			"boxState": "normal",
+			"sound": "ren",
+			"speed": 0.05,
+			"portrait": "ren"
+		},
+		{
+			"expression": "talk",
+			"text": "can i sing a song with you?",
+			"boxState": "normal",
+			"sound": "ren",
+			"speed": 0.05,
+			"portrait": "ren"
+		},
+		{
+			"expression": "chill",
+			"text": "Heh! Sure, Man!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		}
+	]
+}

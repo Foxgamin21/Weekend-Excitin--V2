@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hikaalt_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hika dia angry0000" x="371" y="1673" width="320" height="503"/>
+	<SubTexture name="hika dia angry0001" x="1881" y="1673" width="320" height="503"/>
+	<SubTexture name="hika dia chill0000" x="3076" y="558" width="330" height="508"/>
+	<SubTexture name="hika dia chill0001" x="3457" y="558" width="330" height="508"/>
+	<SubTexture name="hika dia chill0002" x="0" y="560" width="330" height="508"/>
+	<SubTexture name="hika dia chill0003" x="381" y="560" width="330" height="508"/>
+	<SubTexture name="hika dia chill0004" x="762" y="560" width="330" height="508"/>
+	<SubTexture name="hika dia chill0005" x="1143" y="560" width="330" height="508"/>
+	<SubTexture name="hika dia huh0000" x="762" y="1119" width="322" height="504"/>
+	<SubTexture name="hika dia huh0001" x="1135" y="1119" width="322" height="504"/>
+	<SubTexture name="hika dia huh0002" x="1508" y="1119" width="322" height="504"/>
+	<SubTexture name="hika dia love0000" x="0" y="1119" width="330" height="503"/>
+	<SubTexture name="hika dia love0001" x="381" y="1119" width="330" height="503"/>
+	<SubTexture name="hika dia mad0000" x="1524" y="560" width="327" height="508"/>
+	<SubTexture name="hika dia mad0001" x="1902" y="560" width="327" height="508"/>
+	<SubTexture name="hika dia mad0002" x="2280" y="1116" width="327" height="508"/>
+	<SubTexture name="hika dia mad0003" x="2658" y="1116" width="327" height="508"/>
+	<SubTexture name="hika dia mad0004" x="3036" y="1117" width="327" height="508"/>
+	<SubTexture name="hika dia mad0005" x="3414" y="1117" width="327" height="508"/>
+	<SubTexture name="hika dia normal0000" x="0" y="0" width="334" height="509"/>
+	<SubTexture name="hika dia normal0001" x="385" y="0" width="334" height="509"/>
+	<SubTexture name="hika dia normal0002" x="770" y="0" width="334" height="509"/>
+	<SubTexture name="hika dia normal0003" x="1155" y="0" width="334" height="509"/>
+	<SubTexture name="hika dia normal0004" x="1540" y="0" width="334" height="509"/>
+	<SubTexture name="hika dia normal0005" x="1925" y="0" width="334" height="509"/>
+	<SubTexture name="hika dia notalk0000" x="1881" y="1119" width="320" height="503"/>
+	<SubTexture name="hika dia notalk0001" x="0" y="1673" width="320" height="503"/>
+	<SubTexture name="hika dia smug0000" x="1484" y="1674" width="320" height="503"/>
+	<SubTexture name="hika dia smug0001" x="2252" y="1675" width="320" height="503"/>
+	<SubTexture name="hika dia talk0000" x="2310" y="0" width="332" height="507"/>
+	<SubTexture name="hika dia talk0001" x="2693" y="0" width="332" height="507"/>
+	<SubTexture name="hika dia talk0002" x="3076" y="0" width="332" height="507"/>
+	<SubTexture name="hika dia talk0003" x="3459" y="0" width="332" height="507"/>
+	<SubTexture name="hika dia talk0004" x="2310" y="558" width="332" height="507"/>
+	<SubTexture name="hika dia talk0005" x="2693" y="558" width="332" height="507"/>
+	<SubTexture name="hika dia what0000" x="2623" y="1675" width="320" height="503"/>
+	<SubTexture name="hika dia what0001" x="2994" y="1676" width="320" height="503"/>
+	<SubTexture name="hika dia woah0000" x="742" y="1674" width="320" height="503"/>
+	<SubTexture name="hika dia woah0001" x="1113" y="1674" width="320" height="503"/>
+</TextureAtlas>

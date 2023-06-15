@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				232
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "fox idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				223
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "fox left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				192
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "fox down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				234
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "fox up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				229
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "fox right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				241
+			],
+			"anim": "letsgo",
+			"fps": 24,
+			"name": "fox letsgo",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				194
+			],
+			"anim": "isthatgood???",
+			"fps": 24,
+			"name": "fox isthatgood???",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/fox_alt-guitar",
+	"position": [
+		50,
+		280
+	],
+	"healthicon": "fox",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		155,
+		41
+	],
+	"camera_position": [
+		40,
+		-210
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

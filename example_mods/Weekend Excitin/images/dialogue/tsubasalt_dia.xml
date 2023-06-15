@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tsubasalt_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tsubasa dia bored0000" x="756" y="2020" width="327" height="616"/>
+	<SubTexture name="tsubasa dia bored0001" x="1533" y="2020" width="327" height="616"/>
+	<SubTexture name="tsubasa dia clam0000" x="399" y="675" width="347" height="616"/>
+	<SubTexture name="tsubasa dia clam0001" x="797" y="675" width="347" height="616"/>
+	<SubTexture name="tsubasa dia happy0000" x="0" y="0" width="348" height="624"/>
+	<SubTexture name="tsubasa dia happy0001" x="399" y="0" width="348" height="624"/>
+	<SubTexture name="tsubasa dia happy0002" x="798" y="0" width="348" height="624"/>
+	<SubTexture name="tsubasa dia happy0003" x="1197" y="0" width="348" height="624"/>
+	<SubTexture name="tsubasa dia happy0004" x="1596" y="0" width="348" height="624"/>
+	<SubTexture name="tsubasa dia happy0005" x="0" y="675" width="348" height="624"/>
+	<SubTexture name="tsubasa dia notalk0000" x="1533" y="1353" width="327" height="616"/>
+	<SubTexture name="tsubasa dia notalk0001" x="378" y="2020" width="327" height="616"/>
+	<SubTexture name="tsubasa dia talk0000" x="1195" y="675" width="327" height="627"/>
+	<SubTexture name="tsubasa dia talk0001" x="1573" y="675" width="327" height="627"/>
+	<SubTexture name="tsubasa dia talk0002" x="399" y="1342" width="327" height="627"/>
+	<SubTexture name="tsubasa dia talk0003" x="777" y="1342" width="327" height="627"/>
+	<SubTexture name="tsubasa dia talk0004" x="0" y="1350" width="327" height="627"/>
+	<SubTexture name="tsubasa dia talk0005" x="1155" y="1353" width="327" height="627"/>
+</TextureAtlas>

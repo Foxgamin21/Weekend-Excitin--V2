@@ -1,0 +1,24 @@
+{
+	"position": [
+		-20,
+		-10
+	],
+	"dialogue_pos": "center",
+	"scale": 1.25,
+	"image": "noone",
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				411
+			],
+			"loop_offsets": [
+				0,
+				430
+			],
+			"anim": "talk",
+			"idle_name": "gf dia #40001",
+			"loop_name": "gf dia #4"
+		}
+	]
+}

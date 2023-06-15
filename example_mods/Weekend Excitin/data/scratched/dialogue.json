@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"expression": "excited",
+			"text": "Huh! That cat is pretty neat!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "chill",
+			"text": "awesome",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "rap",
+			"text": "meow",
+			"boxState": "normal",
+			"sound": "cat",
+			"speed": 0.05,
+			"portrait": "cat"
+		},
+		{
+			"expression": "uh",
+			"text": "Huh? You want to rap, again?",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "talk",
+			"text": "Alright, i'm ready!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "hey",
+			"text": "BF, can we PLEASE go home??",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.05,
+			"portrait": "gfalt"
+		}
+	]
+}

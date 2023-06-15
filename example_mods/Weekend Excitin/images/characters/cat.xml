@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cat.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lucky cat down0000" x="428" y="2089" width="327" height="206" frameX="-2" frameY="-6" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0001" x="428" y="2089" width="327" height="206" frameX="-2" frameY="-6" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0002" x="0" y="1998" width="328" height="209" frameX="-1" frameY="-2" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0003" x="0" y="1998" width="328" height="209" frameX="-1" frameY="-2" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0004" x="0" y="1687" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0005" x="0" y="1687" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0006" x="1458" y="1685" width="329" height="212"/>
+	<SubTexture name="lucky cat down0007" x="1458" y="1685" width="329" height="212"/>
+	<SubTexture name="lucky cat down0008" x="1458" y="1997" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0009" x="1458" y="1997" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0010" x="1458" y="1997" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0011" x="1458" y="1997" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0012" x="1458" y="1997" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0013" x="1458" y="1997" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat down0014" x="1458" y="1997" width="328" height="211" frameX="-1" frameY="-1" frameWidth="329" frameHeight="212"/>
+	<SubTexture name="lucky cat idle0000" x="1093" y="1685" width="265" height="299" frameX="-2" frameY="-8" frameWidth="267" frameHeight="310"/>
+	<SubTexture name="lucky cat idle0001" x="1093" y="1685" width="265" height="299" frameX="-2" frameY="-8" frameWidth="267" frameHeight="310"/>
+	<SubTexture name="lucky cat idle0002" x="726" y="1685" width="267" height="304" frameX="0" frameY="-4" frameWidth="267" frameHeight="310"/>
+	<SubTexture name="lucky cat idle0003" x="726" y="1685" width="267" height="304" frameX="0" frameY="-4" frameWidth="267" frameHeight="310"/>
+	<SubTexture name="lucky cat idle0004" x="1478" y="873" width="267" height="309" frameX="0" frameY="-1" frameWidth="267" frameHeight="310"/>
+	<SubTexture name="lucky cat idle0005" x="1478" y="873" width="267" height="309" frameX="0" frameY="-1" frameWidth="267" frameHeight="310"/>
+	<SubTexture name="lucky cat idle0006" x="744" y="460" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0007" x="744" y="460" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0008" x="1497" y="463" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0009" x="1497" y="463" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0010" x="1111" y="865" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0011" x="1111" y="865" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0012" x="1111" y="865" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0013" x="1111" y="865" width="267" height="310"/>
+	<SubTexture name="lucky cat idle0014" x="1111" y="865" width="267" height="310"/>
+	<SubTexture name="lucky cat left0000" x="1474" y="1282" width="268" height="303" frameX="-3" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0001" x="1474" y="1282" width="268" height="303" frameX="-3" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0002" x="726" y="1281" width="268" height="304" frameX="-3" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0003" x="726" y="1281" width="268" height="304" frameX="-3" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0004" x="0" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0005" x="0" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0006" x="1126" y="459" width="271" height="306"/>
+	<SubTexture name="lucky cat left0007" x="1126" y="459" width="271" height="306"/>
+	<SubTexture name="lucky cat left0008" x="370" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0009" x="370" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0010" x="370" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0011" x="370" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0012" x="370" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0013" x="370" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat left0014" x="370" y="871" width="270" height="306" frameX="-1" frameY="0" frameWidth="271" frameHeight="306"/>
+	<SubTexture name="lucky cat right0000" x="0" y="459" width="275" height="312"/>
+	<SubTexture name="lucky cat right0001" x="0" y="459" width="275" height="312"/>
+	<SubTexture name="lucky cat right0002" x="375" y="459" width="269" height="312" frameX="-6" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0003" x="375" y="459" width="269" height="312" frameX="-6" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0004" x="744" y="870" width="266" height="311" frameX="-9" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0005" x="744" y="870" width="266" height="311" frameX="-9" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0006" x="1110" y="1275" width="264" height="310" frameX="-11" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0007" x="1110" y="1275" width="264" height="310" frameX="-11" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0008" x="0" y="1277" width="263" height="310" frameX="-12" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0009" x="0" y="1277" width="263" height="310" frameX="-12" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0010" x="363" y="1277" width="263" height="310" frameX="-12" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0011" x="363" y="1277" width="263" height="310" frameX="-12" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0012" x="363" y="1277" width="263" height="310" frameX="-12" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0013" x="363" y="1277" width="263" height="310" frameX="-12" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat right0014" x="363" y="1277" width="263" height="310" frameX="-12" frameY="0" frameWidth="275" frameHeight="312"/>
+	<SubTexture name="lucky cat up0000" x="1497" y="0" width="261" height="363" frameX="-15" frameY="0" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0001" x="1497" y="0" width="261" height="363" frameX="-15" frameY="0" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0002" x="1126" y="0" width="271" height="359" frameX="-5" frameY="-5" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0003" x="1126" y="0" width="271" height="359" frameX="-5" frameY="-5" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0004" x="752" y="0" width="274" height="360" frameX="-2" frameY="-6" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0005" x="752" y="0" width="274" height="360" frameX="-2" frameY="-6" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0006" x="0" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0007" x="0" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0008" x="376" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0009" x="376" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0010" x="376" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0011" x="376" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0012" x="376" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0013" x="376" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+	<SubTexture name="lucky cat up0014" x="376" y="0" width="276" height="359" frameX="0" frameY="-7" frameWidth="276" frameHeight="366"/>
+</TextureAtlas>

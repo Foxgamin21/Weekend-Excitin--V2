@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-115,
+				156
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "lena idle"
+		},
+		{
+			"offsets": [
+				-124,
+				135
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "lena down"
+		},
+		{
+			"offsets": [
+				-133,
+				160
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "lena up"
+		},
+		{
+			"offsets": [
+				-114,
+				154
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "lena left"
+		},
+		{
+			"offsets": [
+				-134,
+				156
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "lena right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/lena",
+	"position": [
+		-20,
+		310
+	],
+	"healthicon": "lena",
+	"flip_x": true,
+	"healthbar_colors": [
+		193,
+		68,
+		250
+	],
+	"camera_position": [
+		60,
+		-230
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

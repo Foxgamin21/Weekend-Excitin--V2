@@ -1,0 +1,193 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		170,
+		-40
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "kochi dia talk",
+			"idle_name": "kochi dia talk0005"
+		},
+		{
+			"idle_offsets": [
+				-2,
+				-9
+			],
+			"anim": "what",
+			"loop_offsets": [
+				-2,
+				-9
+			],
+			"idle_name": "kochi dia what",
+			"loop_name": "kochi dia what"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-3
+			],
+			"anim": "happy",
+			"loop_offsets": [
+				-1,
+				-3
+			],
+			"idle_name": "kochi dia happy0005",
+			"loop_name": "kochi dia happy"
+		},
+		{
+			"idle_offsets": [
+				-2,
+				-9
+			],
+			"anim": "angry",
+			"loop_offsets": [
+				-2,
+				-9
+			],
+			"idle_name": "kochi dia angry",
+			"loop_name": "kochi dia angry"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-1
+			],
+			"anim": "clam",
+			"loop_offsets": [
+				-1,
+				-1
+			],
+			"idle_name": "kochi dia clam0005",
+			"loop_name": "kochi dia clam"
+		},
+		{
+			"idle_offsets": [
+				-2,
+				-9
+			],
+			"anim": "huh",
+			"loop_offsets": [
+				-2,
+				-9
+			],
+			"idle_name": "kochi dia huh",
+			"loop_name": "kochi dia huh"
+		},
+		{
+			"idle_offsets": [
+				32,
+				-8
+			],
+			"anim": "cute",
+			"loop_offsets": [
+				32,
+				-8
+			],
+			"idle_name": "kochi dia cute",
+			"loop_name": "kochi dia cute"
+		},
+		{
+			"idle_offsets": [
+				41,
+				-2
+			],
+			"anim": "guitar",
+			"loop_offsets": [
+				41,
+				-2
+			],
+			"idle_name": "kochi dia guitar0005",
+			"loop_name": "kochi dia guitar"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "dumbass",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "kochi dia dumbass0005",
+			"loop_name": "kochi dia dumbass"
+		},
+		{
+			"idle_offsets": [
+				-2,
+				-9
+			],
+			"anim": "bruh",
+			"loop_offsets": [
+				-2,
+				-9
+			],
+			"idle_name": "kochi dia bruh",
+			"loop_name": "kochi dia bruh"
+		},
+		{
+			"idle_offsets": [
+				37,
+				1
+			],
+			"anim": "excitin",
+			"loop_offsets": [
+				37,
+				1
+			],
+			"idle_name": "kochi dia excitin",
+			"loop_name": "kochi dia excitin"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-1
+			],
+			"anim": "scare",
+			"idle_offsets": [
+				0,
+				-1
+			],
+			"loop_name": "kochi dia scare",
+			"idle_name": "kochi dia scare0005"
+		},
+		{
+			"loop_name": "kochi dia cat",
+			"idle_offsets": [
+				10,
+				10
+			],
+			"idle_name": "kochi dia cat0005",
+			"anim": "cat",
+			"loop_offsets": [
+				10,
+				10
+			]
+		},
+		{
+			"loop_name": "kochi dia meow",
+			"idle_offsets": [
+				6,
+				-4
+			],
+			"idle_name": "kochi dia meow",
+			"anim": "meow",
+			"loop_offsets": [
+				6,
+				-4
+			]
+		}
+	],
+	"image": "kochialt_dia"
+}

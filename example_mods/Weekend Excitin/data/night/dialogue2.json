@@ -1,0 +1,244 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "pretty good.",
+			"boxState": "normal",
+			"portrait": "ren",
+			"speed": 0.05,
+			"sound": "ren"
+		},
+		{
+			"expression": "talk",
+			"text": "Heh, thanks guy!",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "happy",
+			"text": "Oh, thats so nice, BF! I want to sing with you again!",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "kochi"
+		},
+		{
+			"expression": "phone",
+			"text": "Can't now, dude.",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "phone",
+			"text": "We have to meet someone named... uh...\\nMinecraftfan2002",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "notalk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "hey",
+			"text": "So you mean... we are going to meet that guy...",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "uh",
+			"text": "with random hell notes and weird ass songs???",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.05,
+			"sound": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Hell yeah! For 200 bucks!",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "huh",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "hehe",
+			"text": "Dad's calling me! Demon magic stuff! Have work rn! Bye, baby!",
+			"boxState": "normal",
+			"portrait": "gfalt",
+			"speed": 0.03,
+			"sound": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "*poof*",
+			"boxState": "normal",
+			"portrait": "noone",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "wait",
+			"text": "HEY! DONT LEAVE ME ALONE! I LOVE YOU, WAHHHHHHHHH!!!!",
+			"boxState": "angry",
+			"portrait": "bfalt",
+			"speed": 0.03,
+			"sound": "bf"
+		},
+		{
+			"expression": "uh",
+			"text": "ok shes gone",
+			"boxState": "normal",
+			"portrait": "bfalt",
+			"speed": 0.05,
+			"sound": "bf"
+		},
+		{
+			"expression": "what",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "kochialt",
+			"speed": 0.05,
+			"sound": "."
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"sound": ".",
+			"speed": 0.05,
+			"portrait": "ren"
+		},
+		{
+			"expression": "uh",
+			"text": "...",
+			"boxState": "normal",
+			"sound": ".",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "angry",
+			"text": "what are you looking at?",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "what",
+			"text": "uh... nothing?",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "talk",
+			"text": "Oh hey, BF! why dont you visit our band?\\n",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "happy",
+			"text": "It would be so cool if you meet my friends and sing again!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "angry",
+			"text": "Like i said dude, no time!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "scare",
+			"text": "Oh, PLEEEAAASSSEE! Visit my band! You're the BEST rapper in all of NewGrounds!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "scare",
+			"text": "We'll pay you! 50? 100? it's yours!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "angry",
+			"text": "...",
+			"boxState": "normal",
+			"sound": ".",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "chill",
+			"text": "fine",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "excitin",
+			"text": "LETS GOOOOOOO!!!!! YIPPEEEEEE!!!",
+			"boxState": "normal",
+			"sound": "kochi",
+			"speed": 0.05,
+			"portrait": "kochialt"
+		},
+		{
+			"expression": "behind",
+			"text": "...",
+			"boxState": "normal",
+			"sound": ".",
+			"speed": 0.05,
+			"portrait": "ren"
+		},
+		{
+			"expression": "bored",
+			"text": "dont bother him",
+			"boxState": "normal",
+			"sound": "ren",
+			"speed": 0.05,
+			"portrait": "ren"
+		},
+		{
+			"expression": "angry",
+			"text": "yea whatever",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		}
+	]
+}

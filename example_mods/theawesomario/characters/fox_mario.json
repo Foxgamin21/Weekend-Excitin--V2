@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "plumber fox idle"
+		},
+		{
+			"offsets": [
+				27,
+				229
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "plumber fox left"
+		},
+		{
+			"offsets": [
+				-15,
+				165
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "plumber fox down"
+		},
+		{
+			"offsets": [
+				5,
+				236
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "plumber fox up"
+		},
+		{
+			"offsets": [
+				-4,
+				229
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "plumber fox right"
+		},
+		{
+			"offsets": [
+				35,
+				230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "alt",
+			"indices": [],
+			"name": "plumber fox alt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/fox mario",
+	"position": [
+		50,
+		280
+	],
+	"healthicon": "fox",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		155,
+		41
+	],
+	"camera_position": [
+		70,
+		-180
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

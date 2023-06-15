@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="foxandraccoon.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fox and raccoon0000" x="0" y="1400" width="824" height="596" frameX="-1" frameY="-4" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0001" x="0" y="1400" width="824" height="596" frameX="-1" frameY="-4" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0002" x="926" y="1399" width="825" height="599" frameX="0" frameY="-1" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0003" x="926" y="1399" width="825" height="599" frameX="0" frameY="-1" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0004" x="926" y="700" width="826" height="599" frameX="0" frameY="-1" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0005" x="926" y="700" width="826" height="599" frameX="0" frameY="-1" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0006" x="0" y="700" width="826" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0007" x="0" y="700" width="826" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0008" x="0" y="0" width="827" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0009" x="0" y="0" width="827" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0010" x="927" y="0" width="827" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0011" x="927" y="0" width="827" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0012" x="927" y="0" width="827" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0013" x="927" y="0" width="827" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+	<SubTexture name="fox and raccoon0014" x="927" y="0" width="827" height="600" frameX="-1" frameY="0" frameWidth="828" frameHeight="600"/>
+</TextureAtlas>

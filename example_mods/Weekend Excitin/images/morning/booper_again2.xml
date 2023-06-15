@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="booper_again2.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="booper again0000" x="0" y="1241" width="1694" height="519" frameX="-5" frameY="-2" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0001" x="0" y="1241" width="1694" height="519" frameX="-5" frameY="-2" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0002" x="0" y="1860" width="1692" height="519" frameX="-5" frameY="-2" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0003" x="0" y="1860" width="1692" height="519" frameX="-5" frameY="-2" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0004" x="0" y="621" width="1692" height="520" frameX="-2" frameY="-1" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0005" x="0" y="621" width="1692" height="520" frameX="-2" frameY="-1" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0006" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0007" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0008" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0009" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0010" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0011" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0012" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0013" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+	<SubTexture name="booper again0014" x="0" y="0" width="1693" height="521" frameX="0" frameY="0" frameWidth="1699" frameHeight="521"/>
+</TextureAtlas>

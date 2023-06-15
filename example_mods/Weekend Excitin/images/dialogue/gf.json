@@ -1,0 +1,141 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		30,
+		20
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-1,
+				50
+			],
+			"idle_offsets": [
+				-1,
+				50
+			],
+			"loop_name": "gf dia talk",
+			"idle_name": "gf dia talk0005"
+		},
+		{
+			"loop_name": "gf dia notalk",
+			"idle_offsets": [
+				-1,
+				46
+			],
+			"idle_name": "gf dia notalk",
+			"anim": "notalk",
+			"loop_offsets": [
+				-1,
+				46
+			]
+		},
+		{
+			"loop_name": "gf dia happy",
+			"idle_offsets": [
+				-1,
+				49
+			],
+			"idle_name": "gf dia happy0005",
+			"anim": "happy",
+			"loop_offsets": [
+				-1,
+				49
+			]
+		},
+		{
+			"loop_name": "gf dia drink",
+			"idle_offsets": [
+				-1,
+				45
+			],
+			"idle_name": "gf dia drink",
+			"anim": "drink",
+			"loop_offsets": [
+				-1,
+				45
+			]
+		},
+		{
+			"loop_name": "gf dia uh",
+			"idle_offsets": [
+				-1,
+				46
+			],
+			"idle_name": "gf dia uh",
+			"anim": "uh",
+			"loop_offsets": [
+				-1,
+				46
+			]
+		},
+		{
+			"loop_name": "gf dia chill",
+			"idle_offsets": [
+				-1,
+				46
+			],
+			"idle_name": "gf dia chill",
+			"anim": "chill",
+			"loop_offsets": [
+				-1,
+				46
+			]
+		},
+		{
+			"loop_name": "gf dia hehe",
+			"idle_offsets": [
+				-1,
+				46
+			],
+			"idle_name": "gf dia hehe",
+			"anim": "hehe",
+			"loop_offsets": [
+				-1,
+				46
+			]
+		},
+		{
+			"loop_name": "gf dia hey",
+			"idle_offsets": [
+				-1,
+				49
+			],
+			"idle_name": "gf dia hey0005",
+			"anim": "hey",
+			"loop_offsets": [
+				-1,
+				49
+			]
+		},
+		{
+			"loop_name": "gf dia smile",
+			"idle_offsets": [
+				-1,
+				46
+			],
+			"idle_name": "gf dia smile",
+			"anim": "smile",
+			"loop_offsets": [
+				-1,
+				46
+			]
+		},
+		{
+			"loop_name": "gf dia huh",
+			"idle_offsets": [
+				-1,
+				46
+			],
+			"idle_name": "gf dia huh",
+			"anim": "huh",
+			"loop_offsets": [
+				-1,
+				46
+			]
+		}
+	],
+	"image": "gf_dia"
+}

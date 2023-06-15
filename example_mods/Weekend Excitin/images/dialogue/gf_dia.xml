@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf dia chill0000" x="900" y="570" width="400" height="516"/>
+	<SubTexture name="gf dia chill0001" x="1350" y="570" width="400" height="516"/>
+	<SubTexture name="gf dia drink0000" x="1350" y="2273" width="400" height="515"/>
+	<SubTexture name="gf dia drink0001" x="900" y="2276" width="400" height="515"/>
+	<SubTexture name="gf dia happy0000" x="450" y="1139" width="400" height="519"/>
+	<SubTexture name="gf dia happy0001" x="1350" y="1138" width="400" height="519"/>
+	<SubTexture name="gf dia happy0002" x="1800" y="1138" width="400" height="519"/>
+	<SubTexture name="gf dia happy0003" x="2250" y="1138" width="400" height="519"/>
+	<SubTexture name="gf dia happy0004" x="2700" y="1138" width="400" height="519"/>
+	<SubTexture name="gf dia happy0005" x="900" y="1707" width="400" height="519"/>
+	<SubTexture name="gf dia hehe0000" x="450" y="1708" width="400" height="516"/>
+	<SubTexture name="gf dia hehe0001" x="450" y="2274" width="400" height="516"/>
+	<SubTexture name="gf dia hey0000" x="2700" y="0" width="400" height="519"/>
+	<SubTexture name="gf dia hey0001" x="2700" y="569" width="400" height="519"/>
+	<SubTexture name="gf dia hey0002" x="0" y="570" width="400" height="519"/>
+	<SubTexture name="gf dia hey0003" x="450" y="570" width="400" height="519"/>
+	<SubTexture name="gf dia hey0004" x="900" y="1138" width="400" height="519"/>
+	<SubTexture name="gf dia hey0005" x="0" y="1139" width="400" height="519"/>
+	<SubTexture name="gf dia huh0000" x="1350" y="1707" width="400" height="516"/>
+	<SubTexture name="gf dia huh0001" x="1800" y="1707" width="400" height="516"/>
+	<SubTexture name="gf dia notalk0000" x="1800" y="570" width="400" height="516"/>
+	<SubTexture name="gf dia notalk0001" x="2250" y="570" width="400" height="516"/>
+	<SubTexture name="gf dia smile0000" x="2250" y="1707" width="400" height="516"/>
+	<SubTexture name="gf dia smile0001" x="2700" y="1707" width="400" height="516"/>
+	<SubTexture name="gf dia talk0000" x="0" y="0" width="400" height="520"/>
+	<SubTexture name="gf dia talk0001" x="450" y="0" width="400" height="520"/>
+	<SubTexture name="gf dia talk0002" x="900" y="0" width="400" height="520"/>
+	<SubTexture name="gf dia talk0003" x="1350" y="0" width="400" height="520"/>
+	<SubTexture name="gf dia talk0004" x="1800" y="0" width="400" height="520"/>
+	<SubTexture name="gf dia talk0005" x="2250" y="0" width="400" height="520"/>
+	<SubTexture name="gf dia uh0000" x="0" y="1708" width="400" height="516"/>
+	<SubTexture name="gf dia uh0001" x="0" y="2274" width="400" height="516"/>
+</TextureAtlas>

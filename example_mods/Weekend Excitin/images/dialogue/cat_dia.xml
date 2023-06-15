@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cat_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cat dia meow0000" x="404" y="451" width="292" height="358"/>
+	<SubTexture name="cat dia meow0001" x="746" y="451" width="292" height="358"/>
+	<SubTexture name="cat dia meow0002" x="1088" y="451" width="292" height="358"/>
+	<SubTexture name="cat dia meow0003" x="1430" y="451" width="292" height="358"/>
+	<SubTexture name="cat dia meow0004" x="404" y="859" width="292" height="358"/>
+	<SubTexture name="cat dia meow0005" x="746" y="859" width="292" height="358"/>
+	<SubTexture name="cat dia rap0000" x="0" y="0" width="354" height="401"/>
+	<SubTexture name="cat dia rap0001" x="404" y="0" width="354" height="401"/>
+	<SubTexture name="cat dia rap0002" x="808" y="0" width="354" height="401"/>
+	<SubTexture name="cat dia rap0003" x="1212" y="0" width="354" height="401"/>
+	<SubTexture name="cat dia rap0004" x="1616" y="0" width="354" height="401"/>
+	<SubTexture name="cat dia rap0005" x="0" y="451" width="354" height="401"/>
+</TextureAtlas>

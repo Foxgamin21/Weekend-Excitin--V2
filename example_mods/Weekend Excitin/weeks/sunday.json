@@ -1,0 +1,50 @@
+{
+	"storyName": "IT's Sunday!!!",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "sunday",
+	"weekBefore": "saturday",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Cat",
+			"cat",
+			[
+				120,
+				120,
+				120
+			]
+		],
+		[
+			"Scratched",
+			"cat",
+			[
+				120,
+				120,
+				120
+			]
+		],
+		[
+			"Night",
+			"wolf",
+			[
+				86,
+				100,
+				133
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": ""
+}

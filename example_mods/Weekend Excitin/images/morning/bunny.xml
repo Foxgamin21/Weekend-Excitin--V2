@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bunny.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bunny dance0000" x="0" y="596" width="248" height="496" frameX="-1" frameY="-1" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0001" x="0" y="596" width="248" height="496" frameX="-1" frameY="-1" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0002" x="348" y="1192" width="243" height="497" frameX="-7" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0003" x="348" y="1192" width="243" height="497" frameX="-7" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0004" x="348" y="596" width="245" height="496" frameX="-3" frameY="-1" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0005" x="348" y="596" width="245" height="496" frameX="-3" frameY="-1" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0006" x="0" y="0" width="249" height="496" frameX="0" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0007" x="0" y="0" width="249" height="496" frameX="0" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0008" x="0" y="1192" width="248" height="496" frameX="-1" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0009" x="0" y="1192" width="248" height="496" frameX="-1" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0010" x="0" y="1192" width="248" height="496" frameX="-1" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0011" x="0" y="1192" width="248" height="496" frameX="-1" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0012" x="0" y="1192" width="248" height="496" frameX="-1" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0013" x="0" y="1192" width="248" height="496" frameX="-1" frameY="0" frameWidth="250" frameHeight="497"/>
+	<SubTexture name="bunny dance0014" x="0" y="1192" width="248" height="496" frameX="-1" frameY="0" frameWidth="250" frameHeight="497"/>
+</TextureAtlas>

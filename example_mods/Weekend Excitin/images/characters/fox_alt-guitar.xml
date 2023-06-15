@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fox_alt-guitar.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fox down guitar0000" x="629" y="4855" width="539" height="544" frameX="0" frameY="-14" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0001" x="1268" y="4855" width="539" height="544" frameX="0" frameY="-14" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0002" x="1907" y="4861" width="531" height="552" frameX="-3" frameY="-6" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0003" x="629" y="5499" width="531" height="552" frameX="-3" frameY="-6" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0004" x="625" y="6806" width="526" height="556" frameX="-5" frameY="-2" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0005" x="1251" y="6808" width="526" height="556" frameX="-5" frameY="-2" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0006" x="3136" y="6814" width="523" height="558" frameX="-7" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0007" x="3136" y="6814" width="523" height="558" frameX="-7" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0008" x="0" y="6822" width="522" height="558" frameX="-8" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0009" x="0" y="6822" width="522" height="558" frameX="-8" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0010" x="1877" y="6826" width="522" height="558" frameX="-8" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0011" x="1877" y="6826" width="522" height="558" frameX="-8" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0012" x="1877" y="6826" width="522" height="558" frameX="-8" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0013" x="1877" y="6826" width="522" height="558" frameX="-8" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox down guitar0014" x="1877" y="6826" width="522" height="558" frameX="-8" frameY="0" frameWidth="539" frameHeight="558"/>
+	<SubTexture name="fox idle guitar0000" x="3055" y="3481" width="524" height="574" frameX="0" frameY="-20" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0001" x="3055" y="3481" width="524" height="574" frameX="0" frameY="-20" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0002" x="2441" y="3481" width="514" height="586" frameX="-3" frameY="-8" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0003" x="2441" y="3481" width="514" height="586" frameX="-3" frameY="-8" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0004" x="1829" y="3482" width="508" height="592" frameX="-5" frameY="-2" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0005" x="1829" y="3482" width="508" height="592" frameX="-5" frameY="-2" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0006" x="3055" y="4155" width="504" height="594" frameX="-7" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0007" x="3055" y="4155" width="504" height="594" frameX="-7" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0008" x="2437" y="4167" width="503" height="594" frameX="-8" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0009" x="2437" y="4167" width="503" height="594" frameX="-8" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0010" x="2437" y="4167" width="503" height="594" frameX="-8" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0011" x="2437" y="4167" width="503" height="594" frameX="-8" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0012" x="2437" y="4167" width="503" height="594" frameX="-8" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0013" x="2437" y="4167" width="503" height="594" frameX="-8" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox idle guitar0014" x="2437" y="4167" width="503" height="594" frameX="-8" frameY="0" frameWidth="524" frameHeight="594"/>
+	<SubTexture name="fox isthatgood???0000" x="0" y="6164" width="525" height="558" frameX="0" frameY="0" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0001" x="1884" y="6168" width="525" height="558" frameX="0" frameY="0" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0002" x="2509" y="6814" width="527" height="554" frameX="0" frameY="-4" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0003" x="2509" y="6814" width="527" height="554" frameX="0" frameY="-4" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0004" x="1260" y="5499" width="529" height="554" frameX="0" frameY="-4" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0005" x="1260" y="5499" width="529" height="554" frameX="0" frameY="-4" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0006" x="3040" y="4849" width="529" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0007" x="0" y="4854" width="529" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0008" x="2538" y="5504" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0009" x="3166" y="5504" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0010" x="0" y="5509" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0011" x="0" y="5509" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0012" x="1889" y="5513" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0013" x="628" y="6151" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0014" x="1256" y="6153" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0015" x="1256" y="6153" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0016" x="2517" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0017" x="2517" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0018" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0019" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0020" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0021" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0022" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0023" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0024" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0025" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0026" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0027" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0028" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0029" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0030" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0031" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0032" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0033" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0034" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0035" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0036" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox isthatgood???0037" x="3145" y="6159" width="528" height="555" frameX="0" frameY="-3" frameWidth="529" frameHeight="558"/>
+	<SubTexture name="fox left guitar0000" x="0" y="7480" width="487" height="579" frameX="0" frameY="-7" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0001" x="1813" y="7484" width="487" height="579" frameX="0" frameY="-7" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0002" x="1821" y="4174" width="493" height="580" frameX="-3" frameY="-6" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0003" x="3094" y="7472" width="493" height="580" frameX="-3" frameY="-6" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0004" x="1218" y="7464" width="495" height="582" frameX="-5" frameY="-4" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0005" x="2499" y="7468" width="495" height="582" frameX="-5" frameY="-4" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0006" x="622" y="7462" width="496" height="584" frameX="-7" frameY="-2" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0007" x="622" y="7462" width="496" height="584" frameX="-7" frameY="-2" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0008" x="1221" y="2080" width="495" height="586" frameX="-8" frameY="0" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0009" x="1221" y="2080" width="495" height="586" frameX="-8" frameY="0" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0010" x="605" y="4168" width="495" height="586" frameX="-8" frameY="0" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0011" x="605" y="4168" width="495" height="586" frameX="-8" frameY="0" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0012" x="605" y="4168" width="495" height="586" frameX="-8" frameY="0" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0013" x="605" y="4168" width="495" height="586" frameX="-8" frameY="0" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox left guitar0014" x="605" y="4168" width="495" height="586" frameX="-8" frameY="0" frameWidth="503" frameHeight="586"/>
+	<SubTexture name="fox letsgo0000" x="0" y="3466" width="508" height="596" frameX="0" frameY="-6" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0001" x="0" y="3466" width="508" height="596" frameX="0" frameY="-6" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0002" x="2477" y="689" width="508" height="602" frameX="0" frameY="0" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0003" x="3085" y="689" width="508" height="602" frameX="0" frameY="0" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0004" x="1824" y="2075" width="510" height="598" frameX="0" frameY="-4" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0005" x="1824" y="2075" width="510" height="598" frameX="0" frameY="-4" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0006" x="1824" y="1378" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0007" x="1824" y="1378" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0008" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0009" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0010" x="3046" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0011" x="0" y="1371" width="508" height="602" frameX="0" frameY="0" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0012" x="608" y="1372" width="508" height="602" frameX="0" frameY="0" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0013" x="1216" y="1378" width="508" height="602" frameX="0" frameY="0" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0014" x="611" y="2080" width="510" height="598" frameX="0" frameY="-4" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0015" x="2434" y="2088" width="510" height="598" frameX="0" frameY="-4" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0016" x="3044" y="2088" width="510" height="598" frameX="0" frameY="-4" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0017" x="0" y="2074" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0018" x="0" y="2074" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0019" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0020" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0021" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0022" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0023" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0024" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0025" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0026" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0027" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0028" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0029" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0030" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox letsgo0031" x="2435" y="1391" width="511" height="597" frameX="0" frameY="-5" frameWidth="511" frameHeight="602"/>
+	<SubTexture name="fox right guitar0000" x="0" y="0" width="532" height="581" frameX="0" frameY="-10" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0001" x="632" y="0" width="532" height="581" frameX="0" frameY="-10" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0002" x="1264" y="0" width="526" height="587" frameX="-3" frameY="-4" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0003" x="1890" y="0" width="526" height="587" frameX="-3" frameY="-4" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0004" x="2516" y="0" width="522" height="589" frameX="-5" frameY="-2" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0005" x="3138" y="0" width="522" height="589" frameX="-5" frameY="-2" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0006" x="0" y="681" width="520" height="590" frameX="-7" frameY="-1" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0007" x="0" y="681" width="520" height="590" frameX="-7" frameY="-1" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0008" x="620" y="681" width="519" height="591" frameX="-8" frameY="0" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0009" x="620" y="681" width="519" height="591" frameX="-8" frameY="0" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0010" x="1239" y="687" width="519" height="591" frameX="-8" frameY="0" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0011" x="1239" y="687" width="519" height="591" frameX="-8" frameY="0" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0012" x="1858" y="687" width="519" height="591" frameX="-8" frameY="0" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0013" x="1858" y="687" width="519" height="591" frameX="-8" frameY="0" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox right guitar0014" x="1858" y="687" width="519" height="591" frameX="-8" frameY="0" frameWidth="532" frameHeight="591"/>
+	<SubTexture name="fox up guitar0000" x="0" y="4162" width="505" height="592" frameX="0" frameY="-4" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0001" x="1216" y="4163" width="505" height="592" frameX="0" frameY="-4" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0002" x="1221" y="3469" width="508" height="594" frameX="-3" frameY="-2" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0003" x="608" y="3474" width="508" height="594" frameX="-3" frameY="-2" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0004" x="2441" y="2786" width="510" height="595" frameX="-5" frameY="-1" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0005" x="3051" y="2786" width="510" height="595" frameX="-5" frameY="-1" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0006" x="0" y="2771" width="511" height="595" frameX="-7" frameY="-1" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0007" x="0" y="2771" width="511" height="595" frameX="-7" frameY="-1" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0008" x="1221" y="2773" width="510" height="596" frameX="-8" frameY="0" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0009" x="1221" y="2773" width="510" height="596" frameX="-8" frameY="0" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0010" x="611" y="2778" width="510" height="596" frameX="-8" frameY="0" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0011" x="611" y="2778" width="510" height="596" frameX="-8" frameY="0" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0012" x="1831" y="2786" width="510" height="596" frameX="-8" frameY="0" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0013" x="1831" y="2786" width="510" height="596" frameX="-8" frameY="0" frameWidth="518" frameHeight="596"/>
+	<SubTexture name="fox up guitar0014" x="1831" y="2786" width="510" height="596" frameX="-8" frameY="0" frameWidth="518" frameHeight="596"/>
+</TextureAtlas>

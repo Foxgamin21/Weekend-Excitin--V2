@@ -1,0 +1,141 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		160,
+		-30
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-1,
+				-1
+			],
+			"idle_offsets": [
+				-1,
+				-1
+			],
+			"loop_name": "hika dia talk",
+			"idle_name": "hika dia talk0005"
+		},
+		{
+			"loop_name": "hika dia notalk",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"idle_name": "hika dia notalk",
+			"anim": "notalk",
+			"loop_offsets": [
+				-1,
+				-5
+			]
+		},
+		{
+			"loop_name": "hika dia angry",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"idle_name": "hika dia angry",
+			"anim": "angry",
+			"loop_offsets": [
+				-1,
+				-5
+			]
+		},
+		{
+			"loop_name": "hika dia mad",
+			"idle_offsets": [
+				-1,
+				0
+			],
+			"idle_name": "hika dia mad0005",
+			"anim": "mad",
+			"loop_offsets": [
+				-1,
+				0
+			]
+		},
+		{
+			"loop_name": "hika dia huh",
+			"idle_offsets": [
+				0,
+				-5
+			],
+			"idle_name": "hika dia huh",
+			"anim": "huh",
+			"loop_offsets": [
+				0,
+				-5
+			]
+		},
+		{
+			"loop_name": "hika dia chill",
+			"idle_offsets": [
+				-1,
+				0
+			],
+			"idle_name": "hika dia chill0005",
+			"anim": "chill",
+			"loop_offsets": [
+				-1,
+				0
+			]
+		},
+		{
+			"loop_name": "hika dia love",
+			"idle_offsets": [
+				1,
+				-5
+			],
+			"idle_name": "hika dia love",
+			"anim": "love",
+			"loop_offsets": [
+				1,
+				-5
+			]
+		},
+		{
+			"loop_name": "hika dia woah",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"idle_name": "hika dia woah",
+			"anim": "woah",
+			"loop_offsets": [
+				-1,
+				-5
+			]
+		},
+		{
+			"loop_name": "hika dia what",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"idle_name": "hika dia what",
+			"anim": "what",
+			"loop_offsets": [
+				-1,
+				-5
+			]
+		},
+		{
+			"loop_name": "hika dia smug",
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"idle_name": "hika dia smug",
+			"anim": "smug",
+			"loop_offsets": [
+				-1,
+				-5
+			]
+		}
+	],
+	"image": "hika_dia"
+}

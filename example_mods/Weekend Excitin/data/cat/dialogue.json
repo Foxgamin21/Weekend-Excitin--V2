@@ -1,0 +1,156 @@
+{
+	"dialogue": [
+		{
+			"expression": "phone",
+			"text": "...",
+			"boxState": "normal",
+			"sound": ".",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "hey",
+			"text": "Boyfriend, WHERE are you going? you've been walking around the same spot for no reason.",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.05,
+			"portrait": "gfalt"
+		},
+		{
+			"expression": "confused",
+			"text": "Shush GF! I'm busy right now!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "phone",
+			"text": "Fuck... Am i on the wrong path??",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "hey",
+			"text": "My god, you've wasted so much time already! Just ask someone around for directions!",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.05,
+			"portrait": "gfalt"
+		},
+		{
+			"expression": "angry",
+			"text": "GF! I already know where i'm going...",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "talk",
+			"text": "meow",
+			"boxState": "normal",
+			"sound": "cat",
+			"speed": 0.05,
+			"portrait": "cat"
+		},
+		{
+			"expression": "uh",
+			"text": "oh",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "talk",
+			"text": "a cat",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "hey",
+			"text": "No time for cats. i want to go home, NOW.",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.05,
+			"portrait": "gfalt"
+		},
+		{
+			"expression": "chill",
+			"text": "Oh come on GF! this cat's giving me an idea!",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "talk",
+			"text": "beep bo bopo bip skebip be beep skdoo beeeep baap boop ske beep",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "talk",
+			"text": "mrow?",
+			"boxState": "normal",
+			"sound": "cat",
+			"speed": 0.05,
+			"portrait": "cat"
+		},
+		{
+			"expression": "notalk",
+			"text": "Please don't tell me you're trying to talk to the cat...",
+			"boxState": "normal",
+			"sound": "gf",
+			"speed": 0.05,
+			"portrait": "gfalt"
+		},
+		{
+			"expression": "angry",
+			"text": "beep boop beep skido bap",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "rap",
+			"text": "meow",
+			"boxState": "normal",
+			"sound": "cat",
+			"speed": 0.05,
+			"portrait": "cat"
+		},
+		{
+			"expression": "uh",
+			"text": "oh",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "uh",
+			"text": "He wants to rap.",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		},
+		{
+			"expression": "smoke",
+			"text": "sweet :)",
+			"boxState": "normal",
+			"sound": "bf",
+			"speed": 0.05,
+			"portrait": "bfalt"
+		}
+	]
+}

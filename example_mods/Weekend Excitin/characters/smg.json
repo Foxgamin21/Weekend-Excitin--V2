@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-15,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "smg idle"
+		},
+		{
+			"offsets": [
+				171,
+				151
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "smg left"
+		},
+		{
+			"offsets": [
+				5,
+				48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "smg down"
+		},
+		{
+			"offsets": [
+				-15,
+				224
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "smg up"
+		},
+		{
+			"offsets": [
+				110,
+				189
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "smg right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/smg",
+	"position": [
+		50,
+		340
+	],
+	"healthicon": "smg",
+	"flip_x": false,
+	"healthbar_colors": [
+		6,
+		0,
+		126
+	],
+	"camera_position": [
+		0,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

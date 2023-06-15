@@ -1,0 +1,32 @@
+{
+	"storyName": "BONUS WEEK!!!",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "bonus",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sunday",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Overpower",
+			"fox",
+			[
+				246,
+				153,
+				73
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": true
+}

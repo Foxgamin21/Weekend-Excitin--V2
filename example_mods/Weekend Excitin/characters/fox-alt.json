@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				230
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "fox idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				268
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "fox left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				258
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "fox down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				232
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "fox up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				227
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "fox right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/fox_alt",
+	"position": [
+		50,
+		280
+	],
+	"healthicon": "fox",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		155,
+		41
+	],
+	"camera_position": [
+		40,
+		-240
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

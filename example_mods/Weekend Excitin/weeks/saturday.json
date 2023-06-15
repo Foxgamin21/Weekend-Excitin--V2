@@ -1,0 +1,50 @@
+{
+	"storyName": "It's Saturday!!!",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "saturday",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Cotton",
+			"bun",
+			[
+				46,
+				193,
+				253
+			]
+		],
+		[
+			"Stalwart",
+			"raccoon",
+			[
+				166,
+				113,
+				13
+			]
+		],
+		[
+			"Sluggish",
+			"fox",
+			[
+				255,
+				153,
+				75
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				290
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "wolf idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				291
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "wolf left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				288
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "wolf down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				304
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "wolf up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				304
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "wolf right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/wolf",
+	"position": [
+		50,
+		280
+	],
+	"healthicon": "wolf",
+	"flip_x": false,
+	"healthbar_colors": [
+		58,
+		78,
+		97
+	],
+	"camera_position": [
+		-140,
+		-240
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

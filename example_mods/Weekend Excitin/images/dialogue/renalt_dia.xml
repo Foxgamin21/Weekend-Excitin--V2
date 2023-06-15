@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="renalt_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ren dia behind0000" x="393" y="0" width="342" height="574"/>
+	<SubTexture name="ren dia bored0000" x="393" y="625" width="342" height="574"/>
+	<SubTexture name="ren dia chill0000" x="0" y="625" width="342" height="574"/>
+	<SubTexture name="ren dia clam0000" x="0" y="1250" width="342" height="574"/>
+	<SubTexture name="ren dia talk0000" x="0" y="0" width="342" height="574"/>
+</TextureAtlas>

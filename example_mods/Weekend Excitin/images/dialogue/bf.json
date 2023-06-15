@@ -1,0 +1,167 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		30,
+		40
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-1,
+				-1
+			],
+			"idle_offsets": [
+				-1,
+				-1
+			],
+			"loop_name": "bf dia talk",
+			"idle_name": "bf dia talk0005"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"anim": "uh",
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"idle_name": "bf dia uh",
+			"loop_name": "bf dia uh"
+		},
+		{
+			"idle_offsets": [
+				-1,
+				0
+			],
+			"anim": "excited",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bf dia excited0005",
+			"loop_name": "bf dia excited"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"anim": "smoke",
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"loop_name": "bf dia smoke",
+			"idle_name": "bf dia smoke"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"anim": "relax",
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"loop_name": "bf dia relax",
+			"idle_name": "bf dia relax"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"anim": "bored",
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"loop_name": "bf dia bored",
+			"idle_name": "bf dia bored"
+		},
+		{
+			"loop_offsets": [
+				90,
+				-4
+			],
+			"anim": "wait",
+			"idle_offsets": [
+				90,
+				-4
+			],
+			"loop_name": "bf dia wait",
+			"idle_name": "bf dia wait"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"anim": "chill",
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"loop_name": "bf dia chill",
+			"idle_name": "bf dia chill"
+		},
+		{
+			"loop_offsets": [
+				-1,
+				-4
+			],
+			"anim": "angry",
+			"idle_offsets": [
+				-1,
+				-4
+			],
+			"loop_name": "bf dia angry",
+			"idle_name": "bf dia angry"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "sans",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "bf dia sans",
+			"idle_name": "bf dia sans"
+		},
+		{
+			"loop_offsets": [
+				66,
+				-4
+			],
+			"anim": "miss",
+			"idle_offsets": [
+				66,
+				-4
+			],
+			"loop_name": "bf dia miss",
+			"idle_name": "bf dia miss"
+		},
+		{
+			"loop_name": "bf dia scare",
+			"idle_offsets": [
+				-8,
+				-2
+			],
+			"idle_name": "bf dia scare",
+			"anim": "scare",
+			"loop_offsets": [
+				-8,
+				-2
+			]
+		}
+	],
+	"image": "bf_dia"
+}

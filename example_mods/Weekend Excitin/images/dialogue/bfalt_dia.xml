@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfalt_dia.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf dia angry0000" x="731" y="1335" width="311" height="392"/>
+	<SubTexture name="bf dia angry0001" x="731" y="1778" width="311" height="392"/>
+	<SubTexture name="bf dia bored0000" x="369" y="3081" width="311" height="392"/>
+	<SubTexture name="bf dia bored0001" x="369" y="3524" width="311" height="392"/>
+	<SubTexture name="bf dia bored0002" x="464" y="864" width="311" height="392"/>
+	<SubTexture name="bf dia bored0003" x="826" y="892" width="311" height="392"/>
+	<SubTexture name="bf dia bored0004" x="1188" y="892" width="311" height="392"/>
+	<SubTexture name="bf dia bored0005" x="1550" y="892" width="311" height="392"/>
+	<SubTexture name="bf dia chill0000" x="369" y="2195" width="311" height="392"/>
+	<SubTexture name="bf dia chill0001" x="369" y="2638" width="311" height="392"/>
+	<SubTexture name="bf dia confused0000" x="1092" y="3550" width="310" height="388"/>
+	<SubTexture name="bf dia confused0001" x="1453" y="3550" width="310" height="388"/>
+	<SubTexture name="bf dia excited0000" x="0" y="1309" width="318" height="396"/>
+	<SubTexture name="bf dia excited0001" x="0" y="1756" width="318" height="396"/>
+	<SubTexture name="bf dia excited0002" x="0" y="2203" width="318" height="396"/>
+	<SubTexture name="bf dia excited0003" x="0" y="2650" width="318" height="396"/>
+	<SubTexture name="bf dia excited0004" x="0" y="3097" width="318" height="396"/>
+	<SubTexture name="bf dia excited0005" x="0" y="3544" width="318" height="396"/>
+	<SubTexture name="bf dia phone0000" x="1455" y="3107" width="310" height="388"/>
+	<SubTexture name="bf dia phone0001" x="731" y="3550" width="310" height="388"/>
+	<SubTexture name="bf dia relax0000" x="1455" y="1778" width="311" height="392"/>
+	<SubTexture name="bf dia relax0001" x="731" y="3107" width="311" height="392"/>
+	<SubTexture name="bf dia relax0002" x="1093" y="2664" width="311" height="392"/>
+	<SubTexture name="bf dia relax0003" x="1455" y="2221" width="311" height="392"/>
+	<SubTexture name="bf dia relax0004" x="1093" y="3107" width="311" height="392"/>
+	<SubTexture name="bf dia relax0005" x="1455" y="2664" width="311" height="392"/>
+	<SubTexture name="bf dia sans0000" x="0" y="890" width="361" height="368"/>
+	<SubTexture name="bf dia sans0001" x="464" y="445" width="361" height="368"/>
+	<SubTexture name="bf dia smoke0000" x="1093" y="1335" width="311" height="392"/>
+	<SubTexture name="bf dia smoke0001" x="731" y="2221" width="311" height="392"/>
+	<SubTexture name="bf dia smoke0002" x="1093" y="1778" width="311" height="392"/>
+	<SubTexture name="bf dia smoke0003" x="1455" y="1335" width="311" height="392"/>
+	<SubTexture name="bf dia smoke0004" x="731" y="2664" width="311" height="392"/>
+	<SubTexture name="bf dia smoke0005" x="1093" y="2221" width="311" height="392"/>
+	<SubTexture name="bf dia talk0000" x="928" y="0" width="317" height="395"/>
+	<SubTexture name="bf dia talk0001" x="1296" y="0" width="317" height="395"/>
+	<SubTexture name="bf dia talk0002" x="1664" y="0" width="317" height="395"/>
+	<SubTexture name="bf dia talk0003" x="876" y="446" width="317" height="395"/>
+	<SubTexture name="bf dia talk0004" x="1244" y="446" width="317" height="395"/>
+	<SubTexture name="bf dia talk0005" x="1612" y="446" width="317" height="395"/>
+	<SubTexture name="bf dia uh0000" x="369" y="1309" width="311" height="392"/>
+	<SubTexture name="bf dia uh0001" x="369" y="1752" width="311" height="392"/>
+	<SubTexture name="bf dia wait0000" x="0" y="0" width="413" height="394"/>
+	<SubTexture name="bf dia wait0001" x="0" y="445" width="413" height="394"/>
+	<SubTexture name="bf dia wait0002" x="464" y="0" width="413" height="394"/>
+</TextureAtlas>
