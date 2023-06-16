@@ -2,19 +2,19 @@
 <TextureAtlas imagePath="ren title.png">
 	<!-- Created with Adobe Animate version 19.0.0.326 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="ren_tittle0000" x="0" y="0" width="490" height="827" frameX="0" frameY="-6" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0001" x="0" y="0" width="490" height="827" frameX="0" frameY="-6" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0002" x="540" y="0" width="469" height="845" frameX="-13" frameY="-1" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0003" x="540" y="0" width="469" height="845" frameX="-13" frameY="-1" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0004" x="0" y="877" width="460" height="854" frameX="-14" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0005" x="0" y="877" width="460" height="854" frameX="-14" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0006" x="1016" y="895" width="457" height="859" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0007" x="1016" y="895" width="457" height="859" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0008" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0009" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0010" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0011" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0012" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0013" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
-	<SubTexture name="ren_tittle0014" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0000" x="0" y="0" width="490" height="827" frameX="0" frameY="-6" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0001" x="0" y="0" width="490" height="827" frameX="0" frameY="-6" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0002" x="540" y="0" width="469" height="845" frameX="-13" frameY="-1" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0003" x="540" y="0" width="469" height="845" frameX="-13" frameY="-1" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0004" x="0" y="877" width="460" height="854" frameX="-14" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0005" x="0" y="877" width="460" height="854" frameX="-14" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0006" x="1016" y="895" width="457" height="859" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0007" x="1016" y="895" width="457" height="859" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0008" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0009" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0010" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0011" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0012" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0013" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
+	<SubTexture name="ren_title0014" x="510" y="895" width="456" height="861" frameX="-15" frameY="0" frameWidth="490" frameHeight="861"/>
 </TextureAtlas>

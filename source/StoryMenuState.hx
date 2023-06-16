@@ -46,7 +46,7 @@ class StoryMenuState extends MusicBeatState
 
 	var difficultySelectors:FlxGroup;
 	var sprDifficulty:FlxSprite;
-	var chess:FlxBackdrop;
+	var chess:ChessBG;
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
@@ -86,11 +86,7 @@ class StoryMenuState extends MusicBeatState
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 
-		chess = new FlxBackdrop(Paths.image('mebg2'), #if (flixel < "5.0.0") 0, 0, true, false #else XY #end);
-		chess.scrollFactor.set(0, 0.8);
-		chess.y -= 80;
-		chess.velocity.x = 20;
-		add(chess);
+		chess = new ChessBG();
 
 		grpWeekText = new FlxTypedGroup<MenuItem>();
 

@@ -1,5 +1,6 @@
 #if sys
 package;
+
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.transition.FlxTransitionSprite.GraphicTransTileDiamond;
@@ -30,8 +31,8 @@ using StringTools;
 
 class Cache extends MusicBeatState
 {
-	public static var bitmapData:Map<String,FlxGraphic>;
-	public static var bitmapData2:Map<String,FlxGraphic>;
+	public static var bitmapData:Map<String, FlxGraphic>;
+	public static var bitmapData2:Map<String, FlxGraphic>;
 
 	var images = [];
 	var music = [];
@@ -39,20 +40,22 @@ class Cache extends MusicBeatState
 	var shitz:FlxText;
 	var loadBar:FlxSprite;
 
+	var curAssets:Int = 0;
+	var totalAssets:Int;
+
 	override function create()
 	{
 		FlxG.mouse.visible = false;
+		FlxG.worldBounds.set(0, 0);
 
-		FlxG.worldBounds.set(0,0);
-
-		bitmapData = new Map<String,FlxGraphic>();
-		bitmapData2 = new Map<String,FlxGraphic>();
+		bitmapData = new Map<String, FlxGraphic>();
+		bitmapData2 = new Map<String, FlxGraphic>();
 
 		var menuBG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loading/loading-' + FlxG.random.int(1, 4)));
 		menuBG.screenCenter();
 		add(menuBG);
 
-		shitz = new FlxText(12, 12, 300, "GAME IS LOADING. PLEASE WAIT...", 12);
+		shitz = new FlxText(12, 12, 0, "GAME IS LOADING\nPLEASE WAIT...", 12);
 		shitz.scrollFactor.set();
 		shitz.setFormat("G.B.BOOT", 32, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(shitz);
@@ -71,14 +74,16 @@ class Cache extends MusicBeatState
 		}
 		#end
 
-		sys.thread.Thread.create(() -> {
+		totalAssets = images.length + music.length;
+		sys.thread.Thread.create(() ->
+		{
 			cache();
 		});
 
 		super.create();
 	}
 
-	override function update(elapsed) 
+	override function update(elapsed)
 	{
 		super.update(elapsed);
 	}
@@ -86,29 +91,27 @@ class Cache extends MusicBeatState
 	function cache()
 	{
 		#if !linux
-
 		for (i in images)
 		{
-			var replaced = i.replace(".png","");
+			var replaced = i.replace(".png", "");
 			var data:BitmapData = BitmapData.fromFile("assets/shared/images/characters/" + i);
 			var graph = FlxGraphic.fromBitmapData(data);
 			graph.persist = true;
 			graph.destroyOnNoUse = false;
-			bitmapData.set(replaced,graph);
+			bitmapData.set(replaced, graph);
 			trace(i);
+			curAssets++;
+			shitz.text = 'GAME IS LOADING\nPLEASE WAIT... (${Math.round((curAssets / totalAssets * 100))}%)';
 		}
-
-
 
 		for (i in music)
 		{
 			trace(i);
+			curAssets++;
+			shitz.text = 'GAME IS LOADING\nPLEASE WAIT... (${Math.round((curAssets / totalAssets) * 100)}%)';
 		}
-
-
 		#end
 		FlxG.switchState(new TitleState());
 	}
-
 }
 #end

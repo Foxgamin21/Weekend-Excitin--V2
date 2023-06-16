@@ -51,7 +51,7 @@ class FreeplayState extends MusicBeatState
 	private var iconArray:Array<HealthIcon> = [];
 
 	var bg:FlxSprite;
-	var chess:FlxBackdrop;
+	var chess:ChessBG;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
 
@@ -113,10 +113,7 @@ class FreeplayState extends MusicBeatState
 		add(bg);
 		bg.screenCenter();
 
-		chess = new FlxBackdrop(Paths.image('mebg2'), #if (flixel < "5.0.0") 0, 0, true, false #else XY #end);
-		chess.scrollFactor.set(0, 0.8);
-		chess.y -= 80;
-		chess.velocity.x = 20;
+		chess = new ChessBG();
 		add(chess);
 
 		var outline = new FlxSprite().loadGraphic(Paths.image('title/outline'));
