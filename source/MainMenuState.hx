@@ -37,7 +37,7 @@ class MainMenuState extends MusicBeatState
 	var charNames:Array<String> = ['kochi', 'hika', 'tsubasa', 'ren', 'cat'];
 
 	var easterEggEnabled:Bool = true; //Disable this to hide the easter egg
-	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.W, FlxKey.K]; //bb stands for bbpanzu cuz he wanted this lmao
+	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.R, FlxKey.E, FlxKey.A, FlxKey.D]; //bb stands for bbpanzu cuz he wanted this lmao
 	var lastKeysPressed:Array<FlxKey> = [];
 
 	var magenta:FlxSprite;
