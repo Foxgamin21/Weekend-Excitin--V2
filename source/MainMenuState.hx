@@ -36,6 +36,10 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options', 'gallery'];
 	var charNames:Array<String> = ['kochi', 'hika', 'tsubasa', 'ren', 'cat'];
 
+	var easterEggEnabled:Bool = true; //Disable this to hide the easter egg
+	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.W, FlxKey.K]; //bb stands for bbpanzu cuz he wanted this lmao
+	var lastKeysPressed:Array<FlxKey> = [];
+
 	var magenta:FlxSprite;
 	var line:FlxSprite;
 	var menu_character:FlxSprite;
@@ -216,6 +220,52 @@ class MainMenuState extends MusicBeatState
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 		line.x += 10;
 		FlxTween.tween(line, {x: -840}, 2.5, {ease: FlxEase.expoOut});
+
+		if(easterEggEnabled)
+			{
+				var finalKey:FlxKey = FlxG.keys.firstJustPressed();
+				if(finalKey != FlxKey.NONE) {
+					lastKeysPressed.push(finalKey); //Convert int to FlxKey
+					if(lastKeysPressed.length > easterEggKeyCombination.length)
+					{
+						lastKeysPressed.shift();
+					}
+					
+					if(lastKeysPressed.length == easterEggKeyCombination.length)
+					{
+						var isDifferent:Bool = false;
+						for (i in 0...lastKeysPressed.length) {
+							if(lastKeysPressed[i] != easterEggKeyCombination[i]) {
+								isDifferent = true;
+								break;
+							}
+						}
+
+						if(!isDifferent) {
+							trace('Easter egg triggered!');
+							//FlxG.save.data.psykaEasterEgg = !FlxG.save.data.psykaEasterEgg;
+							FlxG.sound.play(Paths.sound('secretSound'));
+
+							var black:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+							black.alpha = 0;
+							add(black);
+
+							FlxTween.tween(black, {alpha: 1}, 1, {onComplete:
+								function(twn:FlxTween) {
+									FlxTransitionableState.skipNextTransIn = true;
+									FlxTransitionableState.skipNextTransOut = true;
+
+									PlayState.SONG = Song.loadFromJson("pan-hard", "pan");
+									LoadingState.loadAndSwitchState(new PlayState());
+
+									//MusicBeatState.switchState(new TitleState());
+								}
+							});
+							lastKeysPressed = [];
+						}
+					}
+				}
+			}
 
 		if (!selectedSomethin)
 		{

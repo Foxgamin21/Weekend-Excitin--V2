@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-347
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "dancing kochi 2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-350
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "dancing kochi 1",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dancing_kochi",
+	"position": [
+		-180,
+		-200
+	],
+	"healthicon": "fox",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		178,
+		0
+	],
+	"camera_position": [
+		28,
+		330
+	],
+	"sing_duration": 6.1,
+	"scale": 1.15
+}
