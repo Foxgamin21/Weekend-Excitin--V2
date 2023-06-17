@@ -42,6 +42,7 @@ class CreditCard extends FlxSpriteGroup
 
 	public var desc:String;
 	public var mouseOver:Bool;
+	public var bumpHost:Timer;
 
 	public function new(x:Float, y:Float, data:CreditMember)
 	{
@@ -64,7 +65,8 @@ class CreditCard extends FlxSpriteGroup
 		iconSprite.x -= iconSprite.width / 2;
 		add(iconSprite);
 
-		new Timer(Conductor.crochet).run = bump;
+		bumpHost = new Timer(Conductor.crochet);
+		bumpHost.run = bump;
 	}
 
 	function bump()
@@ -144,6 +146,7 @@ class CreditsState extends MusicBeatState
 		{
 			FlxG.mouse.visible = false;
 			FlxG.sound.play(Paths.sound('cancelMenu'));
+			cardGroup.forEach(card -> card.bumpHost.stop());
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
