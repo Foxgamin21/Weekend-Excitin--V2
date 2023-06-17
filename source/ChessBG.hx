@@ -1,3 +1,5 @@
+package;
+
 import flixel.addons.display.FlxBackdrop;
 
 class ChessBG extends FlxBackdrop

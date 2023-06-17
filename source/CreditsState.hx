@@ -1,49 +1,117 @@
 package;
 
-#if desktop
-import Discord.DiscordClient;
-#end
-import flash.text.TextField;
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.addons.display.FlxGridOverlay;
+import flixel.addons.text.FlxTypeText;
 import flixel.group.FlxGroup.FlxTypedGroup;
-import flixel.math.FlxMath;
+import flixel.group.FlxSpriteGroup;
 import flixel.text.FlxText;
-import flixel.util.FlxColor;
-import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
-#if MODS_ALLOWED
-import sys.FileSystem;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxColor;
+import haxe.Json;
+import haxe.Timer;
 import sys.io.File;
-#end
-import lime.utils.Assets;
 
 using StringTools;
 
+#if desktop
+import Discord.DiscordClient;
+#end
+
+typedef CreditSection =
+{
+	title:String,
+	members:Array<CreditMember>
+}
+
+typedef CreditMember =
+{
+	name:String,
+	?icon:String,
+	desc:String,
+	link:String
+}
+
+class CreditCard extends FlxSpriteGroup
+{
+	var iconSprite:FlxSprite;
+	var username:FlxTypeText;
+	var bumpToLeft:Bool = true;
+	var link:String;
+
+	public var desc:String;
+	public var mouseOver:Bool;
+	public var bumpHost:Timer;
+
+	public function new(x:Float, y:Float, data:CreditMember)
+	{
+		super(x, y);
+		this.link = data.link;
+		this.desc = data.desc;
+		mouseOver = false;
+		antialiasing = ClientPrefs.globalAntialiasing;
+
+		username = new FlxTypeText(0, 100, Std.int(FlxG.width * 0.15), data.name, 24);
+		username.setFormat(Paths.font('Gbboot.ttf'), 24, CENTER, OUTLINE, FlxColor.BLACK);
+		username.antialiasing = ClientPrefs.globalAntialiasing;
+		username.start();
+		add(username);
+
+		iconSprite = new FlxSprite(username.width / 2).loadGraphic(Paths.image('credits/${data.icon != null ? data.icon : data.name.toLowerCase()}'));
+		iconSprite.setGraphicSize(100, 100);
+		iconSprite.updateHitbox();
+		iconSprite.antialiasing = ClientPrefs.globalAntialiasing;
+		iconSprite.x -= iconSprite.width / 2;
+		add(iconSprite);
+
+		bumpHost = new Timer(Conductor.crochet);
+		bumpHost.run = bump;
+	}
+
+	function bump()
+	{
+		FlxTween.cancelTweensOf(iconSprite);
+		FlxTween.angle(iconSprite, 15 * (bumpToLeft ? -1 : 1), 0, (Conductor.stepCrochet * 3) / 1000, {ease: FlxEase.quadOut});
+		bumpToLeft = !bumpToLeft;
+	}
+
+	override function update(elapsed:Float)
+	{
+		super.update(elapsed);
+
+		if (FlxG.mouse.overlaps(this))
+		{
+			color = FlxColor.YELLOW;
+			mouseOver = true;
+
+			if (FlxG.mouse.justPressed)
+				CoolUtil.browserLoad(link);
+		}
+		else
+		{
+			color = FlxColor.WHITE;
+			mouseOver = false;
+		}
+	}
+}
+
 class CreditsState extends MusicBeatState
 {
-	var curSelected:Int = -1;
-
-	private var grpOptions:FlxTypedGroup<Alphabet>;
-	private var iconArray:Array<AttachedSprite> = [];
-	private var creditsStuff:Array<Array<String>> = [];
-
-	var bg:FlxSprite;
-	var descText:FlxText;
-	var intendedColor:Int;
-	var colorTween:FlxTween;
-	var descBox:AttachedSprite;
-
-	var offsetThing:Float = -75;
+	var curSelected:Int = 0;
+	var source:Array<CreditSection>;
+	var cardGroup:FlxTypedGroup<CreditCard>;
+	var titleBar:FlxText;
+	var descBar:FlxText;
 
 	override function create()
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("In Credits", null);
 		#end
 
+<<<<<<< HEAD
 		persistentUpdate = true;
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat2'));
 		add(bg);
@@ -172,172 +240,144 @@ class CreditsState extends MusicBeatState
 		bg.color = getCurrentBGColor();
 		intendedColor = bg.color;
 		changeSelection();
+=======
+		FlxG.mouse.visible = true;
+>>>>>>> bdf949602e57f591d7ab801bd63773dd8f24e735
 		super.create();
+		source = cast Json.parse(File.getContent(Paths.json('credits')));
+
+		var chess = new ChessBG();
+		add(chess);
+
+		cardGroup = new FlxTypedGroup<CreditCard>();
+		add(cardGroup);
+
+		titleBar = new FlxText(0, 32, FlxG.width, "", 40);
+		titleBar.setFormat(Paths.font('pixel.otf'), 40, CENTER, OUTLINE, FlxColor.BLACK);
+		titleBar.borderSize = 3;
+		add(titleBar);
+
+		descBar = new FlxText(0, FlxG.height - 60, FlxG.width, "", 40);
+		descBar.setFormat(Paths.font('MauritzSans.otf'), 40, CENTER);
+		add(descBar);
+
+		forEachOfType(FlxText, function(txt)
+		{
+			txt.screenCenter(X);
+			txt.antialiasing = ClientPrefs.globalAntialiasing;
+		});
+		changeSelection();
 	}
 
-	var quitting:Bool = false;
-	var holdTime:Float = 0;
 	override function update(elapsed:Float)
 	{
-		if (FlxG.sound.music.volume < 0.7)
+		super.update(elapsed);
+
+		if (controls.BACK)
 		{
-			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
+			FlxG.mouse.visible = false;
+			FlxG.sound.play(Paths.sound('cancelMenu'));
+			cardGroup.forEach(card -> card.bumpHost.stop());
+			MusicBeatState.switchState(new MainMenuState());
 		}
 
-		if(!quitting)
+		if (controls.UI_LEFT_P)
 		{
-			if(creditsStuff.length > 1)
-			{
-				var shiftMult:Int = 1;
-				if(FlxG.keys.pressed.SHIFT) shiftMult = 3;
-
-				var upP = controls.UI_UP_P;
-				var downP = controls.UI_DOWN_P;
-
-				if (upP)
-				{
-					changeSelection(-1 * shiftMult);
-					holdTime = 0;
-				}
-				if (downP)
-				{
-					changeSelection(1 * shiftMult);
-					holdTime = 0;
-				}
-
-				if(controls.UI_DOWN || controls.UI_UP)
-				{
-					var checkLastHold:Int = Math.floor((holdTime - 0.5) * 10);
-					holdTime += elapsed;
-					var checkNewHold:Int = Math.floor((holdTime - 0.5) * 10);
-
-					if(holdTime > 0.5 && checkNewHold - checkLastHold > 0)
-					{
-						changeSelection((checkNewHold - checkLastHold) * (controls.UI_UP ? -shiftMult : shiftMult));
-					}
-				}
-			}
-
-			if(controls.ACCEPT && (creditsStuff[curSelected][3] == null || creditsStuff[curSelected][3].length > 4)) {
-				CoolUtil.browserLoad(creditsStuff[curSelected][3]);
-			}
-			if (controls.BACK)
-			{
-				if(colorTween != null) {
-					colorTween.cancel();
-				}
-				FlxG.sound.play(Paths.sound('cancelMenu'));
-				MusicBeatState.switchState(new MainMenuState());
-				quitting = true;
-			}
+			FlxG.sound.play(Paths.sound('scrollMenu'));
+			changeSelection(-1);
 		}
-		
-		for (item in grpOptions.members)
+
+		if (controls.UI_RIGHT_P)
 		{
-			if(!item.isBold)
+			FlxG.sound.play(Paths.sound('scrollMenu'));
+			changeSelection(1);
+		}
+
+		var descAssigned:Bool = false;
+		cardGroup.forEach(function(card)
+		{
+			if (!descAssigned)
 			{
-				var lerpVal:Float = CoolUtil.boundTo(elapsed * 12, 0, 1);
-				if(item.targetY == 0)
+				if (card.mouseOver)
 				{
-					var lastX:Float = item.x;
-					item.screenCenter(X);
-					item.x = FlxMath.lerp(lastX, item.x - 70, lerpVal);
-					item.forceX = item.x;
+					descBar.text = card.desc;
+					descAssigned = true;
 				}
 				else
-				{
-					item.x = FlxMath.lerp(item.x, 200 + -40 * Math.abs(item.targetY), lerpVal);
-					item.forceX = item.x;
-				}
+					descBar.text = "";
 			}
-		}
-		super.update(elapsed);
+		});
 	}
 
-	var moveTween:FlxTween = null;
 	function changeSelection(change:Int = 0)
 	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
-		do {
-			curSelected += change;
-			if (curSelected < 0)
-				curSelected = creditsStuff.length - 1;
-			if (curSelected >= creditsStuff.length)
-				curSelected = 0;
-		} while(unselectableCheck(curSelected));
+		curSelected += change;
 
-		var newColor:Int =  getCurrentBGColor();
-		if(newColor != intendedColor) {
-			if(colorTween != null) {
-				colorTween.cancel();
-			}
-			intendedColor = newColor;
-			colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {
-				onComplete: function(twn:FlxTween) {
-					colorTween = null;
+		if (curSelected < 0)
+			curSelected = source.length - 1;
+		if (curSelected >= source.length)
+			curSelected = 0;
+
+		cardGroup.clear();
+		var currentScene = source[curSelected];
+		titleBar.text = '< ${currentScene.title} >';
+
+		for (data in 0...currentScene.members.length)
+		{
+			var daCard = new CreditCard(0, FlxG.height * 0.275, currentScene.members[data]);
+			daCard.y += (daCard.height + 12) * Math.floor(data / 4);
+			daCard.ID = data;
+			cardGroup.add(daCard);
+		}
+
+		var da4Groups:Int = Math.floor(currentScene.members.length / 4);
+		var daLeftItems:Int = currentScene.members.length % 4;
+		var curGroup:Int = 0;
+
+		for (i in 0...da4Groups)
+		{
+			var curCard:Int = 0;
+			cardGroup.forEach(function(card)
+			{
+				if (curCard >= 4)
+					return;
+
+				if (card.ID == Std.int(curCard + (4 * i)))
+				{
+					switch (curCard)
+					{
+						case 0:
+							card.x = FlxG.width * 0.10;
+						case 1:
+							card.x = FlxG.width * 0.32;
+						case 2:
+							card.x = FlxG.width * 0.53;
+						case 3:
+							card.x = FlxG.width * 0.75;
+						default:
+					}
+					curCard++;
 				}
 			});
+
+			curGroup++;
 		}
 
-		var bullShit:Int = 0;
-
-		for (item in grpOptions.members)
+		for (i in 0...daLeftItems)
 		{
-			item.targetY = bullShit - curSelected;
-			bullShit++;
-
-			if(!unselectableCheck(bullShit-1)) {
-				item.alpha = 0.6;
-				if (item.targetY == 0) {
-					item.alpha = 1;
-				}
-			}
-		}
-
-		descText.text = creditsStuff[curSelected][2];
-		descText.y = FlxG.height - descText.height + offsetThing - 60;
-
-		if(moveTween != null) moveTween.cancel();
-		moveTween = FlxTween.tween(descText, {y : descText.y + 75}, 0.25, {ease: FlxEase.sineOut});
-
-		descBox.setGraphicSize(Std.int(descText.width + 20), Std.int(descText.height + 25));
-		descBox.updateHitbox();
-	}
-
-	#if MODS_ALLOWED
-	private var modsAdded:Array<String> = [];
-	function pushModCreditsToList(folder:String)
-	{
-		if(modsAdded.contains(folder)) return;
-
-		var creditsFile:String = null;
-		if(folder != null && folder.trim().length > 0) creditsFile = Paths.mods(folder + '/data/credits.txt');
-		else creditsFile = Paths.mods('data/credits.txt');
-
-		if (FileSystem.exists(creditsFile))
-		{
-			var firstarray:Array<String> = File.getContent(creditsFile).split('\n');
-			for(i in firstarray)
+			cardGroup.forEach(function(card)
 			{
-				var arr:Array<String> = i.replace('\\n', '\n').split("::");
-				if(arr.length >= 5) arr.push(folder);
-				creditsStuff.push(arr);
-			}
-			creditsStuff.push(['']);
+				if (card.ID == (4 * curGroup) + i)
+					switch (daLeftItems)
+					{
+						case 1:
+							card.x = (FlxG.width / 2) - (card.width / 2);
+						case 2:
+							card.x = (FlxG.width * 0.33) * (1 + i) - (card.width / 2);
+						case 3:
+							card.x = (FlxG.width * 0.25) * (1 + i) - (card.width / 2);
+					}
+			});
 		}
-		modsAdded.push(folder);
-	}
-	#end
-
-	function getCurrentBGColor() {
-		var bgColor:String = creditsStuff[curSelected][4];
-		if(!bgColor.startsWith('0x')) {
-			bgColor = '0xFF' + bgColor;
-		}
-		return Std.parseInt(bgColor);
-	}
-
-	private function unselectableCheck(num:Int):Bool {
-		return creditsStuff[num].length <= 1;
 	}
 }
