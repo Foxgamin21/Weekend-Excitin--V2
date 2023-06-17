@@ -3,24 +3,22 @@ package;
 #if desktop
 import Discord.DiscordClient;
 #end
+import Achievements;
+import editors.MasterEditorMenu;
+import flixel.FlxCamera;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
-import flixel.FlxCamera;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
-import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
-import flixel.text.FlxText;
+import flixel.input.keyboard.FlxKey;
 import flixel.math.FlxMath;
+import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import lime.app.Application;
-import Achievements;
-import editors.MasterEditorMenu;
-import flixel.input.keyboard.FlxKey;
-import flixel.addons.display.FlxBackdrop;
 
 using StringTools;
 
@@ -36,8 +34,8 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options', 'gallery'];
 	var charNames:Array<String> = ['kochi', 'hika', 'tsubasa', 'ren', 'cat'];
 
-	var easterEggEnabled:Bool = true; //Disable this to hide the easter egg
-	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.R, FlxKey.E, FlxKey.A, FlxKey.D]; //bb stands for bbpanzu cuz he wanted this lmao
+	var easterEggEnabled:Bool = true; // Disable this to hide the easter egg
+	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.R, FlxKey.E, FlxKey.A, FlxKey.D]; // bb stands for bbpanzu cuz he wanted this lmao
 	var lastKeysPressed:Array<FlxKey> = [];
 
 	var magenta:FlxSprite;
@@ -221,51 +219,56 @@ class MainMenuState extends MusicBeatState
 		line.x += 10;
 		FlxTween.tween(line, {x: -840}, 2.5, {ease: FlxEase.expoOut});
 
-		if(easterEggEnabled)
+		if (easterEggEnabled)
+		{
+			var finalKey:FlxKey = FlxG.keys.firstJustPressed();
+			if (finalKey != FlxKey.NONE)
 			{
-				var finalKey:FlxKey = FlxG.keys.firstJustPressed();
-				if(finalKey != FlxKey.NONE) {
-					lastKeysPressed.push(finalKey); //Convert int to FlxKey
-					if(lastKeysPressed.length > easterEggKeyCombination.length)
+				lastKeysPressed.push(finalKey); // Convert int to FlxKey
+				if (lastKeysPressed.length > easterEggKeyCombination.length)
+				{
+					lastKeysPressed.shift();
+				}
+
+				if (lastKeysPressed.length == easterEggKeyCombination.length)
+				{
+					var isDifferent:Bool = false;
+					for (i in 0...lastKeysPressed.length)
 					{
-						lastKeysPressed.shift();
+						if (lastKeysPressed[i] != easterEggKeyCombination[i])
+						{
+							isDifferent = true;
+							break;
+						}
 					}
-					
-					if(lastKeysPressed.length == easterEggKeyCombination.length)
+
+					if (!isDifferent)
 					{
-						var isDifferent:Bool = false;
-						for (i in 0...lastKeysPressed.length) {
-							if(lastKeysPressed[i] != easterEggKeyCombination[i]) {
-								isDifferent = true;
-								break;
+						trace('Easter egg triggered!');
+						// FlxG.save.data.psykaEasterEgg = !FlxG.save.data.psykaEasterEgg;
+						FlxG.sound.play(Paths.sound('secretSound'));
+
+						var black:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+						black.alpha = 0;
+						add(black);
+
+						FlxTween.tween(black, {alpha: 1}, 1, {
+							onComplete: function(twn:FlxTween)
+							{
+								FlxTransitionableState.skipNextTransIn = true;
+								FlxTransitionableState.skipNextTransOut = true;
+
+								PlayState.SONG = Song.loadFromJson("pan-hard", "pan");
+								LoadingState.loadAndSwitchState(new PlayState());
+
+								// MusicBeatState.switchState(new TitleState());
 							}
-						}
-
-						if(!isDifferent) {
-							trace('Easter egg triggered!');
-							//FlxG.save.data.psykaEasterEgg = !FlxG.save.data.psykaEasterEgg;
-							FlxG.sound.play(Paths.sound('secretSound'));
-
-							var black:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-							black.alpha = 0;
-							add(black);
-
-							FlxTween.tween(black, {alpha: 1}, 1, {onComplete:
-								function(twn:FlxTween) {
-									FlxTransitionableState.skipNextTransIn = true;
-									FlxTransitionableState.skipNextTransOut = true;
-
-									PlayState.SONG = Song.loadFromJson("pan-hard", "pan");
-									LoadingState.loadAndSwitchState(new PlayState());
-
-									//MusicBeatState.switchState(new TitleState());
-								}
-							});
-							lastKeysPressed = [];
-						}
+						});
+						lastKeysPressed = [];
 					}
 				}
 			}
+		}
 
 		if (!selectedSomethin)
 		{

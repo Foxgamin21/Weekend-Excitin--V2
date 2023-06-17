@@ -1,0 +1,144 @@
+[
+    {
+        "title": "Weekend Excitin' Mod Team",
+        "members": [
+            {
+                "name": "Foxgamin_",
+                "desc": "Director and Main Coder/Artist/Animator/Musician of Weekend Excitin'",
+                "link": "https://twitter.com/foxgamin_"
+            },
+            {
+                "name": "Kitsuism",
+                "desc": "Coder (Dialogue Writing and Grammar)",
+                "link": "https://twitter.com/Kitsuism"
+            },
+            {
+                "name": "Mupvof",
+                "desc": "Icon Artist",
+                "link": "https://twitter.com/Mupvof26"
+            },
+            {
+                "name": "Noza",
+                "desc": "Musician",
+                "link": "https://twitter.com/NozaYT1"
+            },
+            {
+                "name": "Heartly",
+                "desc": "Voice Actress for Kochi",
+                "link": "https://heartlyartist.carrd.co/"
+            },
+            {
+                "name": "el_la0323",
+                "desc": "Voice Actress for Hika",
+                "link": "https://twitter.com/ellsira33"
+            },
+            {
+                "name": "Adriarts19",
+                "desc": "Voice Actress for Tsubasa",
+                "link": "https://twitter.com/adriarts19"
+            },
+            {
+                "name": "Zahaire",
+                "desc": "Voice Actor for Ren",
+                "link": "https://twitter.com/Zahaire15"
+            }
+        ]
+    },
+    {
+        "title": "Psych Engine Team",
+        "members": [
+            {
+                "name": "ShadowMario",
+                "desc": "Main Programmer of Psych Engine",
+                "link": "https://twitter.com/Shadow_Mario_"
+            },
+            {
+                "name": "RiverOaken",
+                "icon": "river",
+                "desc": "Main Artist/Animator of Psych Engine",
+                "link": "https://twitter.com/RiverOaken"
+            },
+            {
+                "name": "shubs",
+                "desc": "Additional Programmer of Psych Engine",
+                "link": "https://twitter.com/yoshubs"
+            }
+        ]
+    },
+    {
+        "title": "Engine Contributors",
+        "members": [
+            {
+                "name": "bbpanzu",
+                "icon": "bb",
+                "desc": "Ex-Programmer of Psych Engine",
+                "link": "https://twitter.com/bbsub3"
+            },
+            {
+                "name": "iFlicky",
+                "icon": "flicky",
+                "desc": "Composer of \"Psync\" and \"Tea Time\" and Dialogue SFX",
+                "link": "https://twitter.com/flicky_i"
+            },
+            {
+                "name": "SqirraRNG",
+                "icon": "sqirra",
+                "desc": "Crash Handler and Base Code for Chart Editor's Waveform",
+                "link": "https://twitter.com/gedehari"
+            },
+            {
+                "name": "PolybiusProxy",
+                "icon": "proxy",
+                "desc": "Video Format Loader Library (hxCodec)",
+                "link": "https://twitter.com/polybiusproxy"
+            },
+            {
+                "name": "KadeDev",
+                "icon": "kade",
+                "desc": "Fixed some cool stuff on Chart Editor and other PRs",
+                "link": "https://twitter.com/kade0912"
+            },
+            {
+                "name": "Keoiki",
+                "desc": "Note Splash Animations",
+                "link": "https://twitter.com/Keoiki_"
+            },
+            {
+                "name": "NebulaZorua",
+                "icon": "nebula",
+                "desc": "LUA JIT Fork and some Lua reworks",
+                "link": "https://twitter.com/Nebula_Zorua"
+            },
+            {
+                "name": "Smokey",
+                "desc": "Sprite Atlas Support",
+                "link": "https://twitter.com/Smokey_5_"
+            }
+        ]
+    },
+    {
+        "title": "Funkin' Crew",
+        "members": [
+            {
+                "name": "ninjamuffin99",
+                "desc": "Programmer of Friday Night Funkin'",
+                "link": "https://twitter.com/ninja_muffin99"
+            },
+            {
+                "name": "PhantomArcade",
+                "desc": "Animator of Friday Night Funkin'",
+                "link": "https: //twitter.com/PhantomArcade3K"
+            },
+            {
+                "name": "evilsk8r",
+                "desc": "Artist of Friday Night Funkin'",
+                "link": "https: //twitter.com/evilsk8r"
+            },
+            {
+                "name": "kawaisprite",
+                "desc": "Composer of Friday Night Funkin'",
+                "link": "https: //twitter.com/kawaisprite"
+            }
+        ]
+    }
+]
