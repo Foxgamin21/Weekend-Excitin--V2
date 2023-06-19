@@ -35,7 +35,7 @@ typedef CreditMember =
 
 class CreditCard extends FlxSpriteGroup
 {
-	var iconSprite:FlxSprite;
+	var iconSprite:Null<FlxSprite>;
 	var username:FlxTypeText;
 	var bumpToLeft:Bool = true;
 	var link:String;
@@ -58,12 +58,17 @@ class CreditCard extends FlxSpriteGroup
 		username.start();
 		add(username);
 
-		iconSprite = new FlxSprite(username.width / 2).loadGraphic(Paths.image('credits/${data.icon != null ? data.icon : data.name.toLowerCase()}'));
-		iconSprite.setGraphicSize(100, 100);
-		iconSprite.updateHitbox();
-		iconSprite.antialiasing = ClientPrefs.globalAntialiasing;
-		iconSprite.x -= iconSprite.width / 2;
-		add(iconSprite);
+		var daSprite = Cache.creditIcons.get(data.icon != null ? data.icon : data.name.toLowerCase());
+
+		if (daSprite != null)
+		{
+			iconSprite = new FlxSprite(username.width / 2).loadGraphic(daSprite);
+			iconSprite.setGraphicSize(100, 100);
+			iconSprite.updateHitbox();
+			iconSprite.antialiasing = ClientPrefs.globalAntialiasing;
+			iconSprite.x -= iconSprite.width / 2;
+			add(iconSprite);
+		}
 
 		bumpHost = new Timer(Conductor.crochet);
 		bumpHost.run = bump;
@@ -71,9 +76,12 @@ class CreditCard extends FlxSpriteGroup
 
 	function bump()
 	{
-		FlxTween.cancelTweensOf(iconSprite);
-		FlxTween.angle(iconSprite, 15 * (bumpToLeft ? -1 : 1), 0, (Conductor.stepCrochet * 3) / 1000, {ease: FlxEase.quadOut});
-		bumpToLeft = !bumpToLeft;
+		if (iconSprite != null)
+		{
+			FlxTween.cancelTweensOf(iconSprite);
+			FlxTween.angle(iconSprite, 15 * (bumpToLeft ? -1 : 1), 0, (Conductor.stepCrochet * 3) / 1000, {ease: FlxEase.quadOut});
+			bumpToLeft = !bumpToLeft;
+		}
 	}
 
 	override function update(elapsed:Float)
@@ -193,7 +201,7 @@ class CreditsState extends MusicBeatState
 
 		for (data in 0...currentScene.members.length)
 		{
-			var daCard = new CreditCard(0, FlxG.height * 0.275, currentScene.members[data]);
+			var daCard = new CreditCard(0, FlxG.height * 0.27, currentScene.members[data]);
 			daCard.y += (daCard.height + 12) * Math.floor(data / 4);
 			daCard.ID = data;
 			cardGroup.add(daCard);
@@ -245,6 +253,7 @@ class CreditsState extends MusicBeatState
 							card.x = (FlxG.width * 0.33) * (1 + i) - (card.width / 2);
 						case 3:
 							card.x = (FlxG.width * 0.25) * (1 + i) - (card.width / 2);
+						default:
 					}
 			});
 		}

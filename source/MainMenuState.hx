@@ -31,7 +31,7 @@ class MainMenuState extends MusicBeatState
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 
-	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options', 'gallery'];
+	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'gallery', 'options'];
 	var charNames:Array<String> = ['kochi', 'hika', 'tsubasa', 'ren', 'cat'];
 
 	var easterEggEnabled:Bool = true; // Disable this to hide the easter egg
@@ -99,12 +99,12 @@ class MainMenuState extends MusicBeatState
 
 		menu_character = new FlxSprite(charX[curID], charY[curID]);
 		menu_character.frames = Paths.getSparrowAtlas('mainmenuchrs/${curChar == 'cat' ? 'lucky ' : ''}$curChar title');
-		menu_character.antialiasing = true;
 		menu_character.animation.addByPrefix('bump', '${curChar == 'cat' ? 'lucky_' : ''}${curChar}_title', 24, true);
-		menu_character.updateHitbox();
-		menu_character.scale.set(1.3, 1.3);
 		menu_character.animation.play('bump');
+		menu_character.updateHitbox();
+		menu_character.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menu_character);
+
 		trace('Menu Character: $curChar');
 
 		// BG Stuff
@@ -168,7 +168,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Weekend Excitin' v" + Application.current.meta.get('version'), 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -255,13 +255,8 @@ class MainMenuState extends MusicBeatState
 						FlxTween.tween(black, {alpha: 1}, 1, {
 							onComplete: function(twn:FlxTween)
 							{
-								FlxTransitionableState.skipNextTransIn = true;
-								FlxTransitionableState.skipNextTransOut = true;
-
 								PlayState.SONG = Song.loadFromJson("pan-hard", "pan");
 								LoadingState.loadAndSwitchState(new PlayState());
-
-								// MusicBeatState.switchState(new TitleState());
 							}
 						});
 						lastKeysPressed = [];

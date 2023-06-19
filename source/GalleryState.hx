@@ -5,8 +5,8 @@ import Discord.DiscordClient;
 #end
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.text.FlxText;
 import flixel.addons.text.FlxTypeText;
+import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
@@ -23,7 +23,6 @@ class GalleryState extends MusicBeatState
 	var rightArrow:FlxSprite;
 	var galSprite:FlxSprite;
 
-	var directory:String = 'mods/images/exciting/gallery/images';
 	var spritesPushed:Array<FlxSprite> = [];
 	var transitioning:Bool;
 
@@ -63,8 +62,19 @@ class GalleryState extends MusicBeatState
 		spritesPushed = [];
 		transitioning = true;
 
-		for (i in 0...textList.length)
-			spritesPushed.push(new FlxSprite().loadGraphic('$directory/weekend$i.png'));
+		var counter:Int = 0;
+		for (bmap in Cache.gallery.keys())
+		{
+			var curImg:String = 'weekend$counter';
+			var newSprite = Cache.gallery.get(curImg);
+
+			if (newSprite != null)
+				spritesPushed.push(new FlxSprite().loadGraphic(newSprite));
+			else
+				trace('Could not find "$curImg.png" file in cached data');
+
+			counter++;
+		}
 
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG_b'));
 		bg.scrollFactor.set();
@@ -89,15 +99,15 @@ class GalleryState extends MusicBeatState
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
 		// var bgYellow:FlxSprite = new FlxSprite(0, 56).makeGraphic(FlxG.width, 386, 0xFFF9CF51);
 
-		descriptionText = new FlxTypeText(0, Std.int(FlxG.height * 0.9), FlxG.width, textList[curSprite], 32);
+		descriptionText = new FlxTypeText(0, Std.int(FlxG.height * 0.9), FlxG.width, "", 32);
 		descriptionText.setFormat(Paths.font("PressStartK.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		descriptionText.updateHitbox();
 		descriptionText.screenCenter(X);
-		descriptionText.start();
 		add(descriptionText);
 
-		curSpriteTxt = new FlxText(1150, 50, 0, "", 48);
+		curSpriteTxt = new FlxText(FlxG.width * 0.92, 50, Std.int(FlxG.width * 0.12), "", 48);
 		curSpriteTxt.setFormat(Paths.font("vcr.ttf"), 48, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		curSpriteTxt.x -= curSpriteTxt.width / 2;
 		add(curSpriteTxt);
 
 		leftArrow = new FlxSprite(60, 0);
@@ -119,16 +129,7 @@ class GalleryState extends MusicBeatState
 		leftArrow.animation.finishCallback = n -> if (n == "press") leftArrow.animation.play('idle');
 		rightArrow.animation.finishCallback = n -> if (n == "press") rightArrow.animation.play('idle');
 
-		galSprite = new FlxSprite().loadGraphic('$directory/weekend$curSprite.png');
-		galSprite.scrollFactor.set();
-		galSprite.setGraphicSize(0, Std.int(FlxG.height * 0.8));
-		galSprite.updateHitbox();
-		galSprite.screenCenter();
-		galSprite.y -= FlxG.height * 0.05;
-		galSprite.alpha = 0;
-		add(galSprite);
-
-		FlxTween.tween(galSprite, {alpha: 1}, 1, {onComplete: twn -> transitioning = false});
+		changeSprite();
 		forEachOfType(FlxSprite, function(spr)
 		{
 			spr.scrollFactor.set();
@@ -161,7 +162,7 @@ class GalleryState extends MusicBeatState
 		super.update(elapsed);
 	}
 
-	function changeSprite(amount:Int)
+	function changeSprite(amount:Int = 0)
 	{
 		transitioning = true;
 
@@ -173,10 +174,9 @@ class GalleryState extends MusicBeatState
 
 		remove(galSprite);
 		galSprite = new FlxSprite().loadGraphicFromSprite(spritesPushed[curSprite]);
-		galSprite.setGraphicSize(0, Std.int(FlxG.height * 0.8));
+		galSprite.setGraphicSize(0, Std.int(FlxG.height * 0.75));
 		galSprite.updateHitbox();
 		galSprite.screenCenter();
-		galSprite.y -= FlxG.height * 0.05;
 		add(galSprite);
 
 		descriptionText.resetText(textList[curSprite]);

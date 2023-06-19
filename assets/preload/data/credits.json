@@ -13,9 +13,8 @@
                 "link": "https://twitter.com/Kitsuism"
             },
             {
-                "name": "Gamerpablito",
-		"icon": "gamerpablito",
-                "desc": "Coder (Coding Main menu, Credit, Gallery and Freeplay)",
+                "name": "GamerPablito",
+                "desc": "Coder (Loading System and Design for Menus)",
                 "link": "https://twitter.com/GamerPablito1"
             },
             {
@@ -28,9 +27,8 @@
                 "desc": "Musician",
                 "link": "https://twitter.com/NozaYT1"
             },
-{
+            {
                 "name": "Bluusagi370",
-		"icon": "bluusagi370",
                 "desc": "Musician",
                 "link": "https://twitter.com/bluusagi370"
             },
@@ -139,17 +137,17 @@
             {
                 "name": "PhantomArcade",
                 "desc": "Animator of Friday Night Funkin'",
-                "link": "https: //twitter.com/PhantomArcade3K"
+                "link": "https://twitter.com/PhantomArcade3K"
             },
             {
                 "name": "evilsk8r",
                 "desc": "Artist of Friday Night Funkin'",
-                "link": "https: //twitter.com/evilsk8r"
+                "link": "https://twitter.com/evilsk8r"
             },
             {
                 "name": "kawaisprite",
                 "desc": "Composer of Friday Night Funkin'",
-                "link": "https: //twitter.com/kawaisprite"
+                "link": "https://twitter.com/kawaisprite"
             }
         ]
     }

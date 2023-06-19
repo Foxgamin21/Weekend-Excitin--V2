@@ -1,117 +1,148 @@
-#if sys
 package;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.addons.transition.FlxTransitionSprite.GraphicTransTileDiamond;
-import flixel.addons.transition.FlxTransitionableState;
-import flixel.addons.transition.TransitionData;
-import flixel.graphics.FlxGraphic;
+import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
-import flixel.math.FlxPoint;
-import flixel.util.FlxTimer;
 import flixel.text.FlxText;
-import flixel.system.FlxSound;
-import lime.app.Application;
-#if windows
-import Discord.DiscordClient;
-#end
-import openfl.display.BitmapData;
-import openfl.utils.Assets;
-import haxe.Exception;
-import flixel.tweens.FlxEase;
 import flixel.util.FlxColor;
-import flixel.tweens.FlxTween;
-#if cpp
-import sys.FileSystem;
-import sys.io.File;
-#end
+import flixel.util.FlxTimer;
+import haxe.Timer;
+import lime.app.Future;
+import lime.app.Promise;
+import openfl.display.BitmapData;
+import sys.FileSystem.readDirectory as getAssets;
 
 using StringTools;
 
 class Cache extends MusicBeatState
 {
-	public static var bitmapData:Map<String, FlxGraphic>;
-	public static var bitmapData2:Map<String, FlxGraphic>;
-
-	var images = [];
-	var music = [];
-
-	var shitz:FlxText;
-	var loadBar:FlxSprite;
-
-	var curAssets:Int = 0;
+	// Components (Don't touch!!)
+	var initialized:Bool;
 	var totalAssets:Int;
+	var curAssets:Int;
+	var shitz:FlxText;
+
+	// Sources
+	var gallerySource:String = "mods/images/exciting/gallery/images";
+	var creditIconsSource:String = "assets/images/credits";
+
+	// Processings
+	var loadingGallery:Future<Map<String, BitmapData>>;
+	var loadingCreditIcons:Future<Map<String, BitmapData>>;
+
+	// Targets
+	public static var gallery:Map<String, BitmapData> = [];
+	public static var creditIcons:Map<String, BitmapData> = [];
 
 	override function create()
 	{
-		FlxG.mouse.visible = false;
-		FlxG.worldBounds.set(0, 0);
-
-		bitmapData = new Map<String, FlxGraphic>();
-		bitmapData2 = new Map<String, FlxGraphic>();
+		super.create();
+		FlxG.mouse.visible = initialized = false;
+		curAssets = totalAssets = 0;
 
 		var menuBG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loading/loading-' + FlxG.random.int(1, 5)));
 		menuBG.screenCenter();
 		add(menuBG);
 
-		shitz = new FlxText(12, 12, 0, "GAME IS LOADING\nPLEASE WAIT...", 12);
+		shitz = new FlxText(12, 12, 0, "", 32);
 		shitz.scrollFactor.set();
 		shitz.setFormat("G.B.BOOT", 32, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(shitz);
 
-		#if cpp
-		for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/shared/images/characters")))
+		new FlxTimer().start(function(tmr)
 		{
-			if (!i.endsWith(".png"))
-				continue;
-			images.push(i);
-		}
+			loadingGallery = loadBitmapListFrom(gallerySource);
+			loadingGallery.onComplete(bmaps -> gallery = bmaps);
+			loadingGallery.onError(e -> trace(e));
 
-		for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/songs")))
-		{
-			music.push(i);
-		}
-		#end
+			loadingCreditIcons = loadBitmapListFrom(creditIconsSource);
+			loadingCreditIcons.onComplete(bmaps -> creditIcons = bmaps);
+			loadingCreditIcons.onError(e -> trace(e));
 
-		totalAssets = images.length + music.length;
-		sys.thread.Thread.create(() ->
-		{
-			cache();
+			initialized = true;
 		});
+	}
 
-		super.create();
+	function traceProgress()
+	{
+		trace('Loading... ($curAssets/$totalAssets)');
+	}
+
+	function loadBitmapListFrom(src:String):Future<Map<String, BitmapData>>
+	{
+		var loadedBmaps:Map<String, BitmapData> = [];
+		var loader:Promise<Map<String, BitmapData>> = new Promise<Map<String, BitmapData>>();
+		var srcContent = getAssets(src);
+		var timer:Timer = new Timer(250);
+		var total:Int = srcContent.length;
+		var counter:Int = 0;
+
+		function cancel(pos:Int)
+		{
+			loader.error('Graphics load failed from "$src" at item $pos');
+			timer.stop();
+		}
+
+		totalAssets += total;
+		timer.run = function()
+		{
+			var newName:String = srcContent[counter];
+
+			if (!newName.endsWith('.png'))
+			{
+				cancel(counter);
+				return;
+			}
+
+			var newBmp:Null<BitmapData> = BitmapData.fromFile('$src/${newName}');
+
+			if (newBmp == null)
+			{
+				cancel(counter);
+				return;
+			}
+
+			loadedBmaps.set(newName.replace('.png', ''), newBmp);
+			counter++;
+			curAssets++;
+			loader.progress(counter, total);
+			traceProgress();
+
+			if (counter == total)
+			{
+				loader.complete(loadedBmaps);
+				timer.stop();
+			};
+		};
+		return loader.future;
 	}
 
 	override function update(elapsed)
 	{
 		super.update(elapsed);
-	}
 
-	function cache()
-	{
-		#if !linux
-		for (i in images)
+		if (initialized)
 		{
-			var replaced = i.replace(".png", "");
-			var data:BitmapData = BitmapData.fromFile("assets/shared/images/characters/" + i);
-			var graph = FlxGraphic.fromBitmapData(data);
-			graph.persist = true;
-			graph.destroyOnNoUse = false;
-			bitmapData.set(replaced, graph);
-			trace(i);
-			curAssets++;
-			shitz.text = 'GAME IS LOADING\nPLEASE WAIT... (${Math.round((curAssets / totalAssets * 100))}%)';
-		}
+			shitz.text = 'GAME IS LOADING\nPLEASE WAIT... ($curAssets/$totalAssets)';
 
-		for (i in music)
-		{
-			trace(i);
-			curAssets++;
-			shitz.text = 'GAME IS LOADING\nPLEASE WAIT... (${Math.round((curAssets / totalAssets) * 100)}%)';
+			if (loadingGallery.isComplete && loadingCreditIcons.isComplete)
+			{
+				initialized = false;
+				shitz.color = FlxColor.GREEN;
+				shitz.text = '\nGAME LOADED!!';
+				FlxG.sound.play(Paths.sound('confirmMenu'));
+				FlxFlicker.flicker(shitz, 1, true, false, flk -> MusicBeatState.switchState(new TitleState()));
+			}
+
+			if (loadingGallery.isError || loadingCreditIcons.isError)
+			{
+				initialized = false;
+				shitz.color = FlxColor.RED;
+				shitz.text = '\nGAME FAILED TO LOAD!';
+				FlxG.sound.play(Paths.sound('cancelMenu'));
+				new FlxTimer().start(5, tmr -> Sys.exit(1));
+			}
 		}
-		#end
-		FlxG.switchState(new TitleState());
 	}
 }
-#end
