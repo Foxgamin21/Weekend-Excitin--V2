@@ -3,7 +3,6 @@ package;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.effects.FlxFlicker;
-import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
@@ -47,7 +46,7 @@ class Cache extends MusicBeatState
 
 		shitz = new FlxText(12, 12, 0, "", 32);
 		shitz.scrollFactor.set();
-		shitz.setFormat("G.B.BOOT", 32, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		shitz.setFormat("G.B.BOOT", 32, FlxColor.WHITE, LEFT, OUTLINE, FlxColor.BLACK);
 		add(shitz);
 
 		new FlxTimer().start(function(tmr)
@@ -129,7 +128,7 @@ class Cache extends MusicBeatState
 			if (loadingGallery.isComplete && loadingCreditIcons.isComplete)
 			{
 				initialized = false;
-				shitz.color = FlxColor.GREEN;
+				shitz.color = FlxColor.LIME;
 				shitz.text = '\nGAME LOADED!!';
 				FlxG.sound.play(Paths.sound('confirmMenu'));
 				FlxFlicker.flicker(shitz, 1, true, false, flk -> MusicBeatState.switchState(new TitleState()));
