@@ -51,6 +51,7 @@ class GalleryState extends MusicBeatState
 		'Art by JexenJade', // 21
 		'Art by CD', // 22
 		'Art by EL_la0323', // 23
+		'Art by MUPVOF', // 24
 	];
 
 	override function create()

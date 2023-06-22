@@ -101,6 +101,7 @@ class MainMenuState extends MusicBeatState
 		menu_character.frames = Paths.getSparrowAtlas('mainmenuchrs/${curChar == 'cat' ? 'lucky ' : ''}$curChar title');
 		menu_character.animation.addByPrefix('bump', '${curChar == 'cat' ? 'lucky_' : ''}${curChar}_title', 24, true);
 		menu_character.animation.play('bump');
+		menu_character.scale.set(1.1, 1.1);
 		menu_character.updateHitbox();
 		menu_character.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menu_character);

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wolf luigi.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="plumber wolf0000" x="0" y="774" width="449" height="672" frameX="-2" frameY="-2" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0001" x="0" y="774" width="449" height="672" frameX="-2" frameY="-2" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0002" x="0" y="0" width="451" height="674" frameX="0" frameY="0" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0003" x="0" y="0" width="451" height="674" frameX="0" frameY="0" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0004" x="0" y="1546" width="446" height="673" frameX="-5" frameY="-1" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0005" x="546" y="1546" width="446" height="672" frameX="-5" frameY="-2" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0006" x="549" y="3085" width="445" height="670" frameX="-6" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0007" x="549" y="3085" width="445" height="670" frameX="-6" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0008" x="1094" y="3085" width="445" height="670" frameX="-6" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0009" x="1094" y="759" width="442" height="670" frameX="-9" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0010" x="1639" y="1529" width="409" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0011" x="1639" y="1529" width="409" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0012" x="1639" y="1529" width="409" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0013" x="1101" y="2314" width="412" height="667" frameX="-42" frameY="-6" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0014" x="1101" y="2314" width="412" height="667" frameX="-42" frameY="-6" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0015" x="1112" y="0" width="460" height="659" frameX="-2" frameY="-15" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0016" x="1112" y="0" width="460" height="659" frameX="-2" frameY="-15" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0017" x="551" y="0" width="461" height="659" frameX="0" frameY="-15" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0018" x="551" y="0" width="461" height="659" frameX="0" frameY="-15" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0019" x="0" y="2319" width="452" height="664" frameX="-5" frameY="-10" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0020" x="0" y="2319" width="452" height="664" frameX="-5" frameY="-10" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0021" x="552" y="2318" width="449" height="667" frameX="-6" frameY="-6" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0022" x="0" y="3083" width="449" height="668" frameX="-6" frameY="-5" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0023" x="549" y="774" width="445" height="670" frameX="-9" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0024" x="549" y="774" width="445" height="670" frameX="-9" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0025" x="1636" y="759" width="412" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0026" x="1636" y="759" width="412" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0027" x="1636" y="759" width="412" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0028" x="1092" y="1544" width="411" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+	<SubTexture name="plumber wolf0029" x="1092" y="1544" width="411" height="670" frameX="-42" frameY="-3" frameWidth="462" frameHeight="674"/>
+</TextureAtlas>

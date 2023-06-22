@@ -57,6 +57,9 @@ function onNextDialogue(count)
 		setObjectCamera('cutscreen7', 'hud');
 		setObjectOrder('cutscreen7', 0);
 	end
+	if count == 11 and not allowEndShit then
+		playSound('hika_4', 1);
+	end
 	if count == 14 and not allowEndShit then
 		removeLuaSprite('cutscreen7');
 		makeLuaSprite('cutscreen8', 'cutscreen8', 0, 0);
@@ -65,6 +68,9 @@ function onNextDialogue(count)
 		setObjectCamera('cutscreen8', 'hud');
 		setObjectOrder('cutscreen8', 0);
 	end
+	if count == 15 and not allowEndShit then
+		playSound('hika_2', 1);
+	end
 	if count == 16 and not allowEndShit then
 		removeLuaSprite('cutscreen8');
 		makeLuaSprite('cutscreen9', 'cutscreen9', 0, 0);
@@ -72,6 +78,15 @@ function onNextDialogue(count)
 		addLuaSprite('cutscreen9', true);
 		setObjectCamera('cutscreen9', 'hud');
 		setObjectOrder('cutscreen9', 0);
+	end
+	if count == 17 and not allowEndShit then
+		playSound('tsubasa_3', 1);
+	end
+	if count == 19 and not allowEndShit then
+		playSound('tsubasa_2', 1);
+	end
+	if count == 23 and not allowEndShit then
+		playSound('tsubasa_1', 1);
 	end
 	if count == 25 and not allowEndShit then
 		removeLuaSprite('cutscreen9');
@@ -83,6 +98,9 @@ function onNextDialogue(count)
 	end
 	if count == 27 and not allowEndShit then
 		playSound('ren_1', 1);
+	end
+	if count == 33 then
+		playSound('hika_5', 1);
 	end
 	if count == 40 then
 		playSound('kochi_2', 1);

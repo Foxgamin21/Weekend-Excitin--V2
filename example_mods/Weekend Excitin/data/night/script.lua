@@ -61,6 +61,7 @@ function onNextDialogue(count)
 		addLuaSprite('cutscreen4', true);
 		setObjectCamera('cutscreen4', 'hud');
 		setObjectOrder('cutscreen4', 0);
+		playSound('cat_attack', 1);
 	end
 	if count == 24 and not allowEndShit then
 		removeLuaSprite('cutscreen4');
@@ -69,7 +70,7 @@ function onNextDialogue(count)
 		addLuaSprite('cutscreen5', true);
 		setObjectCamera('cutscreen5', 'hud');
 		setObjectOrder('cutscreen5', 0);
-		playSound('cat_attack', 1);
+		playSound('ren_3', 1);
 	end
 	if count == 32 and not allowEndShit then
 		playSound('ren_4', 1);
@@ -82,7 +83,7 @@ function onNextDialogue(count)
 		setObjectCamera('roomcutscreen', 'hud');
 		setObjectOrder('roomcutscreen', 0);
 	end
-	if count == 46 then
+	if count == 45 then
 		playSound('poof', 1);
 	end
 	-- triggered when the next dialogue line starts, 'line' starts with 1
