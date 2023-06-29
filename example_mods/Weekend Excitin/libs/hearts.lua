@@ -2,15 +2,15 @@ local wpairs = {};
 
 function wpairs.init(self, py, scrollFact)
 	self.pairs = {
-		'walking_one', 'walking_two', 'walking_three', 'walking_four', 'walking_five', 'walking_six'
+		'walking_one', 'walking_two', 'walking_three', 'walking_four', 'walking_five', 'walking_six', 'walking_seven'
 	};
 	self.flip = {
-		true, false, false, false, true, true
+		true, false, false, false, true, true, true
 	}
 	self.currPair = 0;
-	local scales = { 1.45, 1.45, 1.45, 1.45, 1.50, 1.45 };
-	local offy = { 450, 450, 450, 530, 510, 610 };
-	local offx = { -1200, -1500, -1200, -1200, -1500, -1500 };
+	local scales = { 1.45, 1.45, 1.45, 1.45, 1.50, 1.45, 1.45 };
+	local offy = { 450, 450, 450, 530, 510, 610, 510 };
+	local offx = { -1200, -1500, -1200, -1200, -1500, -1500, -1500 };
 	--local offy = { 0, 150, 40, 50, 100 };	
 	for j = 0, 1 do
 		for i = 1, #self.pairs do

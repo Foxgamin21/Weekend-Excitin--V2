@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="FNF Weekend Excitin'" file="WeekendExcitin" packageName="com.foxgamin21.weekendexcitin" package="com.foxgamin21.weekendexcitin" main="Main" version="1.0" company="Foxgamin21" />
+	<app title="FNF Weekend Excitin'" file="WeekendExcitin" packageName="com.foxgamin21.weekendexcitin" package="com.foxgamin21.weekendexcitin" main="Main" version="2.0" company="Foxgamin21" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
