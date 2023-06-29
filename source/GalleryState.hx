@@ -27,31 +27,33 @@ class GalleryState extends MusicBeatState
 	var transitioning:Bool;
 
 	var textList:Array<String> = [
-		'The Weekend Excitin', // 0
+		"The Weekend Excitin'", // 0
 		'Ref of Kochi', // 1
 		'Ref of Hika', // 2
 		'Ref of Tsubasa', // 3
 		'Ref of Ren', // 4
-		'Weekend Excitin thumbnail', // 5
-		'Sketch', // 6
-		'I hope she made lotsa spaghetti', // 7
-		'Minus design of Kochi', // 8
-		'Art by MJ_AANGEL', // 9
-		'Art by OngGamerZ0211', // 10
-		'Art by KokaKoala', // 11
-		'Art by SkyanUltar', // 12
-		'Art by QuixSiji', // 13
-		'Art by AnnikiVee', // 14
-		'Art by trd_yo', // 15
-		'Art by RHibatullina', // 16
-		'Art by Ino', // 17
-		'Art by ItsJaydenlol', // 18
-		'Art by Lofi', // 19
-		'Art by beautagicannie', // 20
-		'Art by JexenJade', // 21
-		'Art by CD', // 22
-		'Art by EL_la0323', // 23
+		"Weekend Excitin' thumbnail #1", // 5
+		"Weekend Excitin' thumbnail #2", // 6
+		"Weekend Excitin' thumbnail #3", // 7
+		'Sketch', // 8
+		'I hope she made lotsa spaghetti', // 9
+		'Boyfriend and Girlfriend design', // 10
+		'Art by OngGamerZ0211', // 11
+		'Art by KokaKoala', // 12
+		'Art by SkyanUltar', // 13
+		'Art by QuixSiji', // 14
+		'Art by AnnikiVee', // 15
+		'Art by trd_yo', // 16
+		'Art by RHibatullina', // 17
+		'Art by Ino', // 18
+		'Art by ItsJaydenlol', // 19
+		'Art by Lofi', // 20
+		'Art by beautagicannie', // 21
+		'Art by JexenJade', // 22
+		'Art by CD', // 23
 		'Art by MUPVOF', // 24
+		'Art by Mj_Art', // 25
+		'Art by EL_la0323', // 26
 	];
 
 	override function create()
