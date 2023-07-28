@@ -2,18 +2,18 @@
 <TextureAtlas imagePath="walking_pairs.png">
 	<!-- Created with Adobe Animate version 19.0.0.326 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="ayanna and dalia0000" x="3401" y="4986" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0001" x="3401" y="4986" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0002" x="0" y="4987" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0003" x="0" y="4987" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0004" x="535" y="5367" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0005" x="535" y="5367" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0006" x="1070" y="5367" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0007" x="1070" y="5367" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0008" x="1605" y="5493" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0009" x="1605" y="5493" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0010" x="3401" y="4986" width="435" height="412"/>
-	<SubTexture name="ayanna and dalia0011" x="3401" y="4986" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0000" x="2755" y="5515" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0001" x="2755" y="5515" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0002" x="3290" y="5515" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0003" x="3290" y="5515" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0004" x="0" y="5551" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0005" x="0" y="5551" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0006" x="535" y="5914" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0007" x="535" y="5914" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0008" x="1070" y="6022" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0009" x="1070" y="6022" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0010" x="2755" y="5515" width="435" height="412"/>
+	<SubTexture name="ayanna and dalia0011" x="2755" y="5515" width="435" height="412"/>
 	<SubTexture name="cval and kolsan0000" x="1897" y="1154" width="578" height="475"/>
 	<SubTexture name="cval and kolsan0001" x="1897" y="1154" width="578" height="475"/>
 	<SubTexture name="cval and kolsan0002" x="1897" y="1154" width="578" height="475"/>
@@ -40,12 +40,12 @@
 	<SubTexture name="eddsworld gang0011" x="3235" y="2387" width="556" height="439"/>
 	<SubTexture name="garcelloanchor0000" x="2704" y="2942" width="398" height="352"/>
 	<SubTexture name="garcelloanchor0001" x="2704" y="2942" width="398" height="352"/>
-	<SubTexture name="garcelloanchor0002" x="534" y="6339" width="398" height="352"/>
-	<SubTexture name="garcelloanchor0003" x="534" y="6339" width="398" height="352"/>
-	<SubTexture name="garcelloanchor0004" x="1646" y="6391" width="398" height="352"/>
-	<SubTexture name="garcelloanchor0005" x="1646" y="6391" width="398" height="352"/>
-	<SubTexture name="garcelloanchor0006" x="2144" y="6391" width="398" height="352"/>
-	<SubTexture name="garcelloanchor0007" x="2144" y="6391" width="398" height="352"/>
+	<SubTexture name="garcelloanchor0002" x="556" y="6426" width="398" height="352"/>
+	<SubTexture name="garcelloanchor0003" x="556" y="6426" width="398" height="352"/>
+	<SubTexture name="garcelloanchor0004" x="1605" y="6482" width="398" height="352"/>
+	<SubTexture name="garcelloanchor0005" x="1605" y="6482" width="398" height="352"/>
+	<SubTexture name="garcelloanchor0006" x="2717" y="6487" width="398" height="352"/>
+	<SubTexture name="garcelloanchor0007" x="2717" y="6487" width="398" height="352"/>
 	<SubTexture name="garcelloanchor0008" x="2704" y="2942" width="398" height="352"/>
 	<SubTexture name="garcelloanchor0009" x="2704" y="2942" width="398" height="352"/>
 	<SubTexture name="garcelloanchor0010" x="2704" y="2942" width="398" height="352"/>
@@ -62,18 +62,18 @@
 	<SubTexture name="jads smokey0009" x="736" y="3481" width="636" height="372"/>
 	<SubTexture name="jads smokey0010" x="1472" y="3886" width="636" height="372"/>
 	<SubTexture name="jads smokey0011" x="1472" y="3886" width="636" height="372"/>
-	<SubTexture name="kou and kapi0000" x="646" y="4845" width="451" height="422"/>
-	<SubTexture name="kou and kapi0001" x="646" y="4845" width="451" height="422"/>
-	<SubTexture name="kou and kapi0002" x="1197" y="4845" width="451" height="422"/>
-	<SubTexture name="kou and kapi0003" x="1197" y="4845" width="451" height="422"/>
-	<SubTexture name="kou and kapi0004" x="1748" y="4971" width="451" height="422"/>
-	<SubTexture name="kou and kapi0005" x="1748" y="4971" width="451" height="422"/>
-	<SubTexture name="kou and kapi0006" x="2299" y="4971" width="451" height="422"/>
-	<SubTexture name="kou and kapi0007" x="2299" y="4971" width="451" height="422"/>
-	<SubTexture name="kou and kapi0008" x="2850" y="4986" width="451" height="422"/>
-	<SubTexture name="kou and kapi0009" x="2850" y="4986" width="451" height="422"/>
-	<SubTexture name="kou and kapi0010" x="646" y="4845" width="451" height="422"/>
-	<SubTexture name="kou and kapi0011" x="646" y="4845" width="451" height="422"/>
+	<SubTexture name="kou and kapi0000" x="0" y="5029" width="451" height="422"/>
+	<SubTexture name="kou and kapi0001" x="0" y="5029" width="451" height="422"/>
+	<SubTexture name="kou and kapi0002" x="551" y="5392" width="451" height="422"/>
+	<SubTexture name="kou and kapi0003" x="551" y="5392" width="451" height="422"/>
+	<SubTexture name="kou and kapi0004" x="1102" y="5500" width="451" height="422"/>
+	<SubTexture name="kou and kapi0005" x="1102" y="5500" width="451" height="422"/>
+	<SubTexture name="kou and kapi0006" x="1653" y="5500" width="451" height="422"/>
+	<SubTexture name="kou and kapi0007" x="1653" y="5500" width="451" height="422"/>
+	<SubTexture name="kou and kapi0008" x="2204" y="5515" width="451" height="422"/>
+	<SubTexture name="kou and kapi0009" x="2204" y="5515" width="451" height="422"/>
+	<SubTexture name="kou and kapi0010" x="0" y="5029" width="451" height="422"/>
+	<SubTexture name="kou and kapi0011" x="0" y="5029" width="451" height="422"/>
 	<SubTexture name="macy and bob0000" x="1356" y="1729" width="447" height="558"/>
 	<SubTexture name="macy and bob0001" x="1356" y="1729" width="447" height="558"/>
 	<SubTexture name="macy and bob0002" x="1903" y="1729" width="447" height="558"/>
@@ -86,42 +86,42 @@
 	<SubTexture name="macy and bob0009" x="1356" y="1729" width="447" height="558"/>
 	<SubTexture name="macy and bob0010" x="3544" y="1729" width="447" height="558"/>
 	<SubTexture name="macy and bob0011" x="3544" y="1729" width="447" height="558"/>
-	<SubTexture name="sarv and ruv0000" x="2140" y="5953" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0001" x="2140" y="5953" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0002" x="3252" y="5958" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0003" x="3252" y="5958" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0004" x="2674" y="5968" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0005" x="2674" y="5968" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0006" x="1112" y="6005" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0007" x="1112" y="6005" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0008" x="0" y="6339" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0009" x="0" y="6339" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0010" x="2140" y="5953" width="434" height="338"/>
-	<SubTexture name="sarv and ruv0011" x="2140" y="5953" width="434" height="338"/>
-	<SubTexture name="selsunday0000" x="2140" y="5493" width="456" height="360"/>
-	<SubTexture name="selsunday0001" x="3401" y="5498" width="456" height="360"/>
-	<SubTexture name="selsunday0002" x="2696" y="5508" width="456" height="360"/>
-	<SubTexture name="selsunday0003" x="2696" y="5508" width="456" height="360"/>
-	<SubTexture name="selsunday0004" x="0" y="5879" width="456" height="360"/>
-	<SubTexture name="selsunday0005" x="0" y="5879" width="456" height="360"/>
-	<SubTexture name="selsunday0006" x="556" y="5879" width="456" height="360"/>
-	<SubTexture name="selsunday0007" x="556" y="5879" width="456" height="360"/>
-	<SubTexture name="selsunday0008" x="3401" y="5498" width="456" height="360"/>
-	<SubTexture name="selsunday0009" x="3401" y="5498" width="456" height="360"/>
-	<SubTexture name="selsunday0010" x="2140" y="5493" width="456" height="360"/>
-	<SubTexture name="selsunday0011" x="2140" y="5493" width="456" height="360"/>
-	<SubTexture name="shaggy and tree0000" x="3384" y="4012" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0001" x="3384" y="4012" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0002" x="1176" y="4358" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0003" x="1176" y="4358" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0004" x="1822" y="4484" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0005" x="1822" y="4484" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0006" x="2468" y="4484" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0007" x="2468" y="4484" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0008" x="3114" y="4499" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0009" x="3114" y="4499" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0010" x="0" y="4500" width="546" height="387"/>
-	<SubTexture name="shaggy and tree0011" x="0" y="4500" width="546" height="387"/>
+	<SubTexture name="sarv and ruv0000" x="3440" y="3465" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0001" x="3440" y="3465" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0002" x="2208" y="3937" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0003" x="2208" y="3937" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0004" x="2817" y="3937" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0005" x="2817" y="3937" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0006" x="0" y="3953" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0007" x="0" y="3953" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0008" x="609" y="3953" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0009" x="609" y="3953" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0010" x="3440" y="3465" width="509" height="429"/>
+	<SubTexture name="sarv and ruv0011" x="3440" y="3465" width="509" height="429"/>
+	<SubTexture name="selsunday0000" x="1605" y="6022" width="456" height="360"/>
+	<SubTexture name="selsunday0001" x="2755" y="6027" width="456" height="360"/>
+	<SubTexture name="selsunday0002" x="3311" y="6027" width="456" height="360"/>
+	<SubTexture name="selsunday0003" x="3311" y="6027" width="456" height="360"/>
+	<SubTexture name="selsunday0004" x="2161" y="6037" width="456" height="360"/>
+	<SubTexture name="selsunday0005" x="2161" y="6037" width="456" height="360"/>
+	<SubTexture name="selsunday0006" x="0" y="6426" width="456" height="360"/>
+	<SubTexture name="selsunday0007" x="0" y="6426" width="456" height="360"/>
+	<SubTexture name="selsunday0008" x="2755" y="6027" width="456" height="360"/>
+	<SubTexture name="selsunday0009" x="2755" y="6027" width="456" height="360"/>
+	<SubTexture name="selsunday0010" x="1605" y="6022" width="456" height="360"/>
+	<SubTexture name="selsunday0011" x="1605" y="6022" width="456" height="360"/>
+	<SubTexture name="shaggy and tree0000" x="2982" y="4541" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0001" x="2982" y="4541" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0002" x="588" y="4905" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0003" x="588" y="4905" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0004" x="1234" y="5013" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0005" x="1234" y="5013" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0006" x="1880" y="5013" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0007" x="1880" y="5013" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0008" x="2526" y="5028" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0009" x="2526" y="5028" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0010" x="3172" y="5028" width="546" height="387"/>
+	<SubTexture name="shaggy and tree0011" x="3172" y="5028" width="546" height="387"/>
 	<SubTexture name="sol and nik0000" x="0" y="0" width="837" height="544"/>
 	<SubTexture name="sol and nik0001" x="0" y="0" width="837" height="544"/>
 	<SubTexture name="sol and nik0002" x="937" y="0" width="837" height="544"/>
@@ -158,16 +158,16 @@
 	<SubTexture name="violet and ruria0009" x="937" y="1154" width="860" height="410"/>
 	<SubTexture name="violet and ruria0010" x="937" y="644" width="860" height="410"/>
 	<SubTexture name="violet and ruria0011" x="937" y="644" width="860" height="410"/>
-	<SubTexture name="yukichi and impostor0000" x="3440" y="3465" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0001" x="3440" y="3465" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0002" x="2208" y="3937" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0003" x="2208" y="3937" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0004" x="2796" y="3937" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0005" x="2796" y="3937" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0006" x="0" y="3953" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0007" x="0" y="3953" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0008" x="588" y="3953" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0009" x="588" y="3953" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0010" x="3440" y="3465" width="488" height="447"/>
-	<SubTexture name="yukichi and impostor0011" x="3440" y="3465" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0000" x="3426" y="3994" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0001" x="3426" y="3994" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0002" x="1218" y="4358" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0003" x="1218" y="4358" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0004" x="1806" y="4466" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0005" x="1806" y="4466" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0006" x="2394" y="4466" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0007" x="2394" y="4466" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0008" x="0" y="4482" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0009" x="0" y="4482" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0010" x="3426" y="3994" width="488" height="447"/>
+	<SubTexture name="yukichi and impostor0011" x="3426" y="3994" width="488" height="447"/>
 </TextureAtlas>

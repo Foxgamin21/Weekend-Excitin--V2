@@ -54,6 +54,10 @@ class GalleryState extends MusicBeatState
 		'Art by MUPVOF', // 24
 		'Art by Mj_Art', // 25
 		'Art by EL_la0323', // 26
+		'Art by PeakFire', // 27
+		'Art by SkyDimensions', // 28
+		'Art by Ryder_momo', // 29
+		'Art by Mari_chan1401', // 30
 	];
 
 	override function create()

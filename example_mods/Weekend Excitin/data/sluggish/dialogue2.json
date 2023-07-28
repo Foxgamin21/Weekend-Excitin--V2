@@ -4,249 +4,249 @@
 			"expression": "miss",
 			"text": "Damn, you got BARS, girl!",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "guitar",
 			"text": "Haha, thanks blue hair!",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "uh",
 			"text": "Right so uh... you're... friends of those?",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "what",
 			"text": "You mean Hika and Tsubasa???",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "happy",
-			"text": "Oh yeah, i'm friends of them!",
+			"text": "Oh yeah, i'm great friends with them!",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "talk",
 			"text": "I'm Kochi - the guitarist and leader of\\nWeekend Excitin'!",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "talk",
 			"text": "Me, Hika and Tsubasa are members of the band!",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "excited",
 			"text": "Woah, sounds great!",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "talk",
 			"text": "Well! It's nice to meet you, leader!",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "happy",
-			"text": "Heh. You too, rapper!",
+			"text": "Heh. You too, Rapper!",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "chill",
 			"text": "Thanks! :)))",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "relax",
 			"text": "And hey! You're pretty cute!",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "hey",
 			"text": "Uh, BF...",
 			"boxState": "normal",
-			"sound": "gf",
+			"portrait": "gf",
 			"speed": 0.05,
-			"portrait": "gf"
+			"sound": "gf"
 		},
 		{
 			"expression": "chill",
 			"text": "Huh?",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "dumbass",
 			"text": "Hahaha, thanks BF but I'm a DUDE. And uhh, dont call me cute. I'm not cute lol.",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.02,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "relax",
 			"text": "Well, what a cute dude!",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "relax",
 			"text": "...",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "."
 		},
 		{
 			"expression": "sans",
-			"text": "wait...",
+			"text": "wait",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "talk",
 			"text": "(9:00 p.m)",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "noone",
 			"speed": 0.05,
-			"portrait": "noone"
+			"sound": "."
 		},
 		{
 			"expression": "what",
 			"text": "Ren, did you... just wake up now!?",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "bored",
 			"text": "...",
 			"boxState": "normal",
-			"sound": "ren",
+			"portrait": "renalt",
 			"speed": 0.05,
-			"portrait": "renalt"
+			"sound": "ren"
 		},
 		{
 			"expression": "bored",
 			"text": "yea",
 			"boxState": "normal",
-			"sound": "ren",
+			"portrait": "renalt",
 			"speed": 0.05,
-			"portrait": "renalt"
+			"sound": "ren"
 		},
 		{
 			"expression": "clam",
 			"text": "Ren! i cant believe you! You're the laziest drummer!",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "clam",
 			"text": "SOMEONE might have to take a wage cut this weekend.",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "bored",
 			"text": "...",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "renalt",
 			"speed": 0.05,
-			"portrait": "renalt"
+			"sound": "."
 		},
 		{
 			"expression": "talk",
 			"text": "hey, want to go to eat some burgers?",
 			"boxState": "normal",
-			"sound": "ren",
+			"portrait": "renalt",
 			"speed": 0.05,
-			"portrait": "renalt"
+			"sound": "ren"
 		},
 		{
 			"expression": "huh",
 			"text": "...Burgers???",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "cute",
 			"text": "OMG YES I LOVE BURGERS SO MUCH!!! ",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "happy",
 			"text": "Alright you're fine this time! :)",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "bored",
 			"text": "...",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "renalt",
 			"speed": 0.05,
-			"portrait": "renalt"
+			"sound": "."
 		},
 		{
 			"expression": "talk",
-			"text": "gotcha...",
+			"text": "gotcha",
 			"boxState": "normal",
-			"sound": "ren",
+			"portrait": "renalt",
 			"speed": 0.05,
-			"portrait": "renalt"
+			"sound": "ren"
 		}
 	]
 }

@@ -4,153 +4,153 @@
 			"expression": "happy",
 			"text": "Hehe! That sure was fun!",
 			"boxState": "normal",
-			"sound": "tsubasa",
+			"portrait": "tsubasa",
 			"speed": 0.05,
-			"portrait": "tsubasa"
+			"sound": "tsubasa"
 		},
 		{
 			"expression": "relax",
 			"text": "Hey, thanks!! You girls are pretty good!",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "talk",
 			"text": "It's getting late so we gotta bounce! But it was cool to meet you guys! :)",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "chill",
 			"text": "Yeah, it's nice to meet you too, blue hair!",
 			"boxState": "normal",
-			"sound": "hika",
+			"portrait": "hika",
 			"speed": 0.05,
-			"portrait": "hika"
+			"sound": "hika"
 		},
 		{
 			"expression": "chill",
 			"text": "But next time, if we meet you again...",
 			"boxState": "normal",
-			"sound": "hika",
+			"portrait": "hika",
 			"speed": 0.05,
-			"portrait": "hika"
+			"sound": "hika"
 		},
 		{
 			"expression": "chill",
 			"text": "We WILL take you down!",
 			"boxState": "normal",
-			"sound": "hika",
+			"portrait": "hika",
 			"speed": 0.05,
-			"portrait": "hika"
+			"sound": "hika"
 		},
 		{
 			"expression": "angry",
 			"text": "Pfft, whatever..",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "what",
 			"text": "Hey! What about Ren!?",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "talk",
 			"text": "There's no time to wait for him!",
 			"boxState": "normal",
-			"sound": "hika",
+			"portrait": "hika",
 			"speed": 0.05,
-			"portrait": "hika"
+			"sound": "hika"
 		},
 		{
 			"expression": "bored",
-			"text": "Yeah! I'ts too late now!",
+			"text": "Yeah! It's too late now!",
 			"boxState": "normal",
-			"sound": "tsubasa",
+			"portrait": "tsubasa",
 			"speed": 0.05,
-			"portrait": "tsubasa"
+			"sound": "tsubasa"
 		},
 		{
 			"expression": "what",
 			"text": "Oh, alright...",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "happy",
 			"text": "See you tomorrow, friends!!!",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "happy",
 			"text": "...",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "."
 		},
 		{
 			"expression": "what",
 			"text": "...",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "."
 		},
 		{
 			"expression": "uh",
 			"text": "...",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "."
 		},
 		{
 			"expression": "what",
 			"text": "...",
 			"boxState": "normal",
-			"sound": ".",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "."
 		},
 		{
 			"expression": "happy",
 			"text": "Hey, can i sing a song with you!?",
 			"boxState": "normal",
-			"sound": "kochi",
+			"portrait": "kochi",
 			"speed": 0.05,
-			"portrait": "kochi"
+			"sound": "kochi"
 		},
 		{
 			"expression": "sans",
-			"text": "oh sure why not hehehehehe!!!",
+			"text": "yea sure lol",
 			"boxState": "normal",
-			"sound": "bf",
+			"portrait": "bf",
 			"speed": 0.05,
-			"portrait": "bf"
+			"sound": "bf"
 		},
 		{
 			"expression": "hey",
-			"text": "...come on...",
+			"text": "come on...",
 			"boxState": "normal",
-			"sound": "gf",
+			"portrait": "gf",
 			"speed": 0.05,
-			"portrait": "gf"
+			"sound": "gf"
 		}
 	]
 }

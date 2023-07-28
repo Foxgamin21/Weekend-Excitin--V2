@@ -180,11 +180,6 @@
                 "link": "https://twitter.com/celeryreal_food"
             },
             {
-                "name": "Amythest",
-                "desc": "",
-                "link": "https://twitter.com/_Syramy_"
-            },
-            {
                 "name": "Inospeak",
                 "desc": "",
                 "link": "https://twitter.com/NotrealIno1"
@@ -193,6 +188,11 @@
                 "name": "Randomnessytogl",
                 "desc": "",
                 "link": "https://twitter.com/randomnessytogl"
+            }
+            {
+                "name": "Garfield",
+                "desc": "",
+                "link": "https://twitter.com/Garfield"
             }
         ]
     },
